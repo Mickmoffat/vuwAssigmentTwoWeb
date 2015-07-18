@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS */
+
+/* font */
+@import url(http://fonts.googleapis.com/css?family=Lato|Quicksand);
+
+
+
+
+/*Body formatting */
+
+
+body {
+font-family:WalkwaySemiBold,Walkway,Quicksand,Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+line-height:16px;
+line-height:1.08em;
+background-color:#000;
+background-color:#3483e9;
+ background-image:url(./img/img_background.jpg); 
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+background-attachment:fixed;
+position:relative;
+
+}
+
+  
+/* div formatting */
+.main {
+padding-top:2%;
+margin:0 auto;
+margin-top:2%;
+margin-bottom:2%;
+padding-bottom:2%;
+position:absolute;
+height:99%;
+width:99%;
+overflow:hidden;
+
+/* border:solid 2px red; */
+}
+
+/* splash page css below */
+
+div.entersite{
+position: relative;
+margin:0 auto;
+margin-top:7.18em;
+margin-bottom:7.18em;
+overflow:hidden;
+/* div rounding and height*/
+height: 200px;
+height: 12.500em;
+width: 200px;
+width:12.500em;
+-moz-border-radius: 100px;
+-moz-border-radius:6.250em;
+border-radius: 100px;
+border-radius:6.250em;
+/* shadow */
+-moz-box-shadow: 0 0 20px #000000;
+-webkit-box-shadow: 0 0 20px #000000;
+box-shadow: 0 0 20px #000000;
+/* background */
+background:grey;
+background-image:url (img_background.jpg);
+opacity: 0.5;
+/* transition effect index splash page */
+-webkit-transition-property: width, height, opacity; 
+-webkit-transition-duration: 2s; 
+transition-property: width, height, opacity;
+transition-duration: 2s;
+
+}
+
+div:hover.entersite {
+position: relative;
+margin:0 auto;
+margin-top:7.18em;
+margin-bottom:7.18em;
+/* div rounding and height*/
+height: 300px;
+height:18.750em;
+width: 300px;
+width:18.750em;
+/* border rounding */
+-moz-border-radius: 150px;
+-moz-border-radius: 9.375em;
+border-radius: 150px;
+border-radius:9.375em;
+overflow:hidden;
+
+/* div hover elements */
+background:grey;
+-moz-box-shadow: 0 0 20px #000000;
+-webkit-box-shadow: 0 0 20px #000000;
+box-shadow: 0 0 20px #000000;
+opacity: 0.9;
+}
+
+/* entersite SVG logo */
+.entersitesvg{
+width:80%;
+margin-left:10%;
+position:absolute;
+top:80px;
+top:5.000em;
+top:13vh;
+top:42%;
+}
+
+/* entersite svg enter text hover 
+Enter site div hyperlink hover styles 
+*/
+
+div.entersite a:link{
+text-decoration:none;
+}
+
+div.entersite  a:active{
+text-decoration:none;
+}
+
+div.entersite a {
+font-size:28px; /*old sizing method for compatibility */
+font-size:1.7em;
+padding-top:10px;
+padding-top:0.625em;
+padding-bottom:5px;
+padding-bottom:0.31em;
+color:#ffffff;
+text-align:center;
+}
+
+/* main content page CSS bellow */
+
+.content {
+margin:20px 20px 20px 20px;
+margin:1.250em 1.250em 1.250em 1.250em;
+padding-left:1%;
+padding-right:1%;
+padding-bottom:1%;
+height:100%;
+overflow:hidden;
+position:relative;
+top:15px;
+top:2vh;
+
+/* border:solid 2px orange; */
+
+}
+
+
+/* article Style */
+article {
+width:95%;
+height:95%;
+margin:0 auto;
+padding-left:1.25em;
+padding-right:1.25em;
+overflow:contain;
+position:fixed;
+
+/* border:solid 2px blue; */
+}
+
+/* hyper-link colour */
+a:link {
+color:#ffffff;
+}
+a:hover {
+color:#ffffff;
+text-decoration:underline;
+}
+a:active {
+color:#1018c3;
+font-style:italic;
+}
+
+h1 a:link{
+color:#ffffff;
+text-decoration:none;}
+}
+h1 a:hover{
+text-decoration:underline;}
+}
+h1 a:active{
+text-decoration:none;}
+}
+
+/* img hyperlink */
+
+a:hover img {
+text-decoration:none;}
+
+
+
+
+
+
+
+

@@ -1,5 +1,4 @@
-/**** CSS main style sheet
-    disaster zone ****/
+/**** CSS main style sheet disaster zone ****/
 
 
 body {
@@ -47,23 +46,18 @@ h1 {
 /**** NAV BAR ****/
 /* NAV ID */
 #navBar {
-    /*width:454px;
+    width:454px;
     width:23.84%;
     height:80px;
     height:85%;
-    margin:0.5%;*/ 
     margin:0.5%;
-    border: 2px dashed #c916de;
+   /*border: 2px dashed #c916de;*/ 
+    display:inline-block;
     
-   }
-
-/* HEADER ID */
-#headerID {
-    border: 2px dashed #5affd2;
 }
 
 .navNews {
-    /* float:left;*/
+    float:left;
     background-color:#FFFFCB;
     border: 2px dashed #c916de;
 }
@@ -79,27 +73,10 @@ h1 {
 }
 
 .navMoreInfo {
-    /*float:right;*/
+    float:right;
     background-color:#74CEB7;
     border: 2px dashed #ff00dc;
 }
 /*** NAV FINISH **/
 
 /*** GOOGLE API ***/
-.googleMainContainter{
-    height:90%;
-    width:99%;
-    margin:0.5%;
-    overflow:hidden;
-    /* workingStuff */
-    background-color:orange;
-    border: 2px dashed #ff00d8;
-}
-
-#apiAlign {
-    margin:auto;
-    
-    /* position:relative;*/
-    
-}
- 

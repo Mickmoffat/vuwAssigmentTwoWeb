@@ -1,16 +1,47 @@
 /**** CSS main style sheet disaster zone ****/
 
+/***** INDEX STYLE *****/
 
+/**** FONT-SIZE-STYLE ****/
+
+/*** HEADER ***/
+h1 {
+    font-family:'Dekar';
+    color:rgba(29, 29, 29, 0.54);
+    font-size:42px;    
+    font-size:2.625em;
+    font-size:3.2vw;
+    padding:1.5%;
+}
+
+/** PARAGRAPH **/
+p {
+    font-family:'Dekar';
+    color:black;
+    font-size:18px;
+    font-size:1.536em;
+
+
+    
+}
+
+
+/**** FONT-SIZE-STYLE-END ****/
+
+/***** BODY *****/
 body {
     
-    width:100%;
-    height:1080px;
-    overflow:hidden;
+    width:auto;
+    height:100%;
+    overflow:visible;
     padding:0.2%;
     margin:auto;
     border: 2px dashed green;
 }
 
+/***** BODY END *****/
+
+/***** HEADER *****/
 header {
     width:100%;
     height:12%;
@@ -18,65 +49,154 @@ header {
    border: 2px dashed orange;
 }
 
-footer {
-    width:100%;
-    height:15%;
-    margin:auto;
-   border: 2px dashed blue;
-}
-
-article {
-    height:75%;
-    border: 2px dashed red;
-}
-
-/**** HEADERS FONT SIZE *****/
-h1 {
-    font-family:'Dekar';
-    font-size:42px;
-    
-    font-size:2.625em;
-}
-
-#h1NavHeader {
-    text-align:center;
-}
-
-
 /**** NAV BAR ****/
-/* NAV ID */
+
+/*** NAV ID ***/
 #navBar {
     width:454px;
     width:23.84%;
     height:80px;
     height:85%;
     margin:0.5%;
-   /*border: 2px dashed #c916de;*/ 
     display:inline-block;
-    
-}
 
+    /*border: 2px dashed #c916de;*/
+  }
+
+#h1NavHeader {
+    text-align:center;
+}
+/*** NAV ID END ***/
+
+/** NAV CLASS **/
 .navNews {
     float:left;
     background-color:#FFFFCB;
+
+    /**/
     border: 2px dashed #c916de;
 }
 
 .navHelpOut {
     background-color:#F2F2C1;
-   border: 2px dashed #ff0000; 
+    
+    /**/
+    border: 2px dashed #ff0000; 
 }
 
 .navPrep {
     background-color:#C9FFD5;
+    
+    /**/
     border: 2px dashed #0026ff;
 }
 
 .navMoreInfo {
     float:right;
     background-color:#74CEB7;
+    
+    /**/
     border: 2px dashed #ff00dc;
 }
+
+/** NAV CLASS END**/
+
 /*** NAV FINISH **/
 
-/*** GOOGLE API ***/
+/***** HEADER FINISH *****/
+
+
+
+/***** ARTICLE *****/
+article {
+    height:75%;
+    border: 2px dashed red;
+}
+
+/**** GOOGLE API ****/
+
+/*** BOOTSTRAP EDIT ***/
+
+.container-fluid {
+/* overflow:hidden;*/
+padding:0.5%;
+/**/
+border:2px solid #7000ff;
+}
+
+
+
+/*** BOOTSTRAP EDIT END ***/
+/*** ID ***/
+
+#mainContainerApi {
+    width:auto;
+    height:100%;
+     /*overflow:hidden;*/ 
+    /* 
+    border:2px dashed #23a0c2; /* LIGHT BLUE */
+
+}
+
+#googleAPI {
+
+     /* 
+    border:2px solid black; [NeedsFixing] */
+}
+
+/*** ID END ***/
+
+/** CLASS **/
+.googleContainer {
+    overflow:hidden;
+    width:auto;
+    height:100%;
+    
+    /* */
+    border:2px dashed black;
+
+}
+
+.googleAPI {
+    width:auto; 
+    height:100%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    /* */
+    border:1px solid orange;
+
+}
+
+/** CLASS END **/
+
+/**** GOOGLE API END ****/
+
+/***** ARTICLE END *****/
+
+/***** FOOTER *****/
+footer {
+    width:100%;
+    height:auto;
+    margin:auto;
+   border: 2px dashed blue;
+}
+
+/*** ID ***/
+#footerDiv {
+    width:100%;
+    height:6vw;
+    margin:inherit;
+
+    /**/
+    border:5px solid #fffa00; /*YELLOW*/
+}
+
+/*** ID END ***/
+
+/*** CLASS ***/
+
+/*** CLASS END ***/
+
+/***** FOOTER END *****/
+
+
+/*** INDEX STYLE END ***/

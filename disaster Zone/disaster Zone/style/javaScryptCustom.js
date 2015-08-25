@@ -14,7 +14,7 @@ $(document).ready(function () {
     $(".navNews").click(function () {
         //show nav expand div
         $("#navNExpand").removeClass("hidden");
-        $("#navNExpand").animate({ height: "90%" }); //sets hight and animates
+        $("#navNExpand").animate({ height: "100%" }); //sets hight and animates
         clickN = clickN + 1; //adds 1 to var
 
         //hide nav expand div

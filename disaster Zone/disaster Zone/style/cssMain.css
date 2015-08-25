@@ -140,14 +140,16 @@ header {
 
 #navNExpand {
     width:23.84%;
-    /*height:90%;*/s
+    /*height:90%;*/
     /* SETTING CHANGED BY JS*/
+    height:100vh;
     margin:0.5%;
     padding:0.2%;
     overflow:scroll;
     float:left;
-    position:absolute;
-    z-index:1;
+    /*position:absolute;
+     z-index:1;*/
+    
     
     
     background-color:#FFFFCB;
@@ -262,8 +264,9 @@ header {
 }
 
 .show {
-    display:block;
+    display:inline-block;
 }
+
 /**+++ NAV HIDE ON LOAD END +++**/
 
 /** NAV CLASS END**/

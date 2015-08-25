@@ -294,12 +294,12 @@ border:2px solid #7000ff; /*PURPLE*/
     border:2px dashed #23a0c2; /* LIGHT BLUE */
 
 }
-
+/* 
 #googleAPI {
 
-     /* 
-    border:2px solid black; [NeedsFixing] */
-}
+     
+    border:2px solid black; [NeedsFixing] 
+} */
 
 /*** ID END ***/
 
@@ -314,9 +314,9 @@ border:2px solid #7000ff; /*PURPLE*/
 
 }
 
-.googleAPI {
-    width:auto; 
-    height:100%;
+#googleAPI {
+    width:auto;
+    height:99vh;
     
     /* */
     border:1px solid orange;

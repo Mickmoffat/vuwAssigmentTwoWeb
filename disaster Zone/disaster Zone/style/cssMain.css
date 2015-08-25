@@ -30,7 +30,7 @@ p {
     font-size:18px;
     font-size:1.536em;
     /*font-size:1.8vh;*/
-    font-size:1vw;
+    font-size:0.9vw;
     padding:0.5%;
 }
 
@@ -141,10 +141,10 @@ header {
 #navNExpand {
     width:23.84%;
     /*height:90%;*/
-    height:0%; /* SETTING CHANGED BY JS*/
+    /* SETTING CHANGED BY JS*/
     margin:0.5%;
     padding:0.2%;
-    overflow:visible;
+    overflow:scroll;
     position:absolute;
     
     float:left;
@@ -156,16 +156,54 @@ header {
 
 /** NEWS EXPAND CONTENT **/
 .NSCR1 {
-
+    height:auto;
+    margin-bottom:0.5%;
     /**/
     border:1px solid #00d1ab; /* BLUE */
 }
 
+.NSCR2 {
+   height:auto;
+   margin-bottom:0.5%;
+   /**/
+   border:1px solid #ff0000; /* RED */
+}
+
+.NSCR3 {
+   height:auto;
+   margin-bottom:0.5%;
+      /**/
+   border:1px solid #ff00dc; /* PURPLE */
+}
+
+.NSCR4 {
+   height:auto;
+   margin-bottom:0.5%;
+      /**/
+   border:1px solid #fffa00; /* YELLOW */
+}
+
+.NSCR5 {
+   height:auto;
+   margin-bottom:0.5%;
+      /**/
+   border:1px solid #ff0000; /* RED */
+}
+
+.NSCR6 {
+   height:auto;
+   margin-bottom:0.5%;
+      /**/
+   border:1px solid #ff0000; /* RED */
+}
+
+
 /** NEWS EXPAND CONTENT END **/
 
-.navHExpand {
+#navHExpand {
     width:23.84%;
-    height:90%;
+    /*height:90%;*/
+    /* SETTING CHANGED BY JS*/
     margin-top:0.5%;
     margin-left:25.24%;
     padding:0.2%;
@@ -177,9 +215,10 @@ header {
     border: 2px dashed #ff0000; 
 }
 
-.navPExpand {
+#navPExpand {
     width:23.84%;
-    height:90%;
+    /*height:90%;*/
+    /* SETTING CHANGED BY JS*/
     margin-top:0.5%;
     margin-left:50.10%;
     padding:0.2%;
@@ -191,9 +230,10 @@ header {
     border: 2px dashed #0026ff;
 }
 
-.navMIExpand {
+#navMIExpand {
     width:23.84%;
-    height:90%;
+    /*height:90%;*/
+    /* SETTING CHANGED BY JS*/
     margin-top:0.5%;
     margin-left:75%;
     padding:0.2%;
@@ -277,7 +317,7 @@ border:2px solid #7000ff; /*PURPLE*/
 .googleAPI {
     width:auto; 
     height:100%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    
     /* */
     border:1px solid orange;
 

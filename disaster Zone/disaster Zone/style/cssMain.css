@@ -140,7 +140,7 @@ header {
 
 #navNExpand {
     width:23.84%;
-    /*height:90%;*/
+    /*height:90%;*/s
     /* SETTING CHANGED BY JS*/
     margin:0.5%;
     padding:0.2%;
@@ -259,6 +259,10 @@ header {
 /**+++ NAV HIDE ON LOAD +++**/
 .hidden {
     display:none;
+}
+
+.show {
+    display:block;
 }
 /**+++ NAV HIDE ON LOAD END +++**/
 

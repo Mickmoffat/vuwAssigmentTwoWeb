@@ -9,19 +9,22 @@ $(document).ready(function () {
     $(".navNews").click(function () {
         //show nav expand div
         $("#navNExpand").removeClass("hidden");
-        click = click += 1;
+        click = click + 1;
 
         //hide nav expand div
         if (click == 2) {
             $("#navNExpand").addClass("hidden");
-            click = 1;
+            click = 0;
         }
-        /* $("#navNExpand").removeClass("hidden");
-        click = click += 1;
+        /*  $(".navNews").click(function () {
+        //show nav expand div
+        $("#navNExpand").removeClass("hidden");
+        click = click + 1;
 
+        //hide nav expand div
         if (click == 2) {
             $("#navNExpand").addClass("hidden");
-            click = 1;
+            click = 0;
         }*/
     });
 

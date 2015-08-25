@@ -130,7 +130,8 @@ header {
 
 #navNExpand {
     width:23.84%;
-    height:90%;
+    /*height:90%;*/
+    height:0%; /* SETTING CHANGED BY JS*/
     margin:0.5%;
     padding:0.2%;
     position:absolute;

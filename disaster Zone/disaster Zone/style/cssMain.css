@@ -145,9 +145,11 @@ header {
     margin:0.5%;
     padding:0.2%;
     overflow:scroll;
-    position:absolute;
-    
     float:left;
+    position:absolute;
+    z-index:1;
+    
+    
     background-color:#FFFFCB;
 
     /**/
@@ -208,7 +210,8 @@ header {
     margin-left:25.24%;
     padding:0.2%;
     position:absolute;
-    
+    z-index:1;
+
     background-color:#F2F2C1;
     
     /**/
@@ -223,6 +226,7 @@ header {
     margin-left:50.10%;
     padding:0.2%;
     position:absolute;
+    z-index:1;
 
     background-color:#C9FFD5;
     
@@ -237,9 +241,11 @@ header {
     margin-top:0.5%;
     margin-left:75%;
     padding:0.2%;
-    position:absolute;
-
     float:right;
+    position:absolute;
+    z-index:1;
+
+    
     background-color:#74CEB7;
     
     /**/
@@ -317,6 +323,7 @@ border:2px solid #7000ff; /*PURPLE*/
 #googleAPI {
     width:auto;
     height:99vh;
+    
     
     /* */
     border:1px solid orange;

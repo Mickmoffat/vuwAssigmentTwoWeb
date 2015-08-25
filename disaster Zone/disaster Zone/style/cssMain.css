@@ -1,4 +1,4 @@
-/**** CSS main style sheet disaster zone ****/
+/**** CSS main style sheet disaster zone MDDN201 P2 [2015] (300317288)****/
 
 /***** INDEX STYLE *****/
 
@@ -93,7 +93,7 @@ header {
 
 .navMoreInfo {
 
-    
+    float:right;
     background-color:#74CEB7;
 
     /*[NEEDS FIXING]*/
@@ -128,7 +128,7 @@ header {
 
 /*++ CLASS ++*/
 
-.navNExpand {
+#navNExpand {
     width:23.84%;
     height:90%;
     margin:0.5%;
@@ -188,6 +188,12 @@ header {
 /*++ CLASS END ++*/
 
 /***+++++ NAV EXPAND END ***+++++/
+
+/**+++ NAV HIDE ON LOAD +++**/
+.hidden {
+    display:none;
+}
+/**+++ NAV HIDE ON LOAD END +++**/
 
 /** NAV CLASS END**/
 

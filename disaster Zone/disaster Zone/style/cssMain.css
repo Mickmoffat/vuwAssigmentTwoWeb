@@ -87,13 +87,6 @@ header {
     border: 2px dashed #c916de;
 }
 
-.navHelpOut {
-    background-color:#F2F2C1;
-    
-    /**/
-    border: 2px dashed #ff0000; 
-}
-
 .navPrep {
     background-color:#C9FFD5;
     
@@ -103,7 +96,7 @@ header {
 
 .navMoreInfo {
 
-    float:right;
+    
     background-color:#74CEB7;
 
     /*[NEEDS FIXING]*/
@@ -119,6 +112,14 @@ header {
     margin-left:75.1%; */ 
 
     border: 2px dashed #ff00dc;
+}
+
+.navHelpOut {
+    float:right;
+    background-color:#F2F2C1;
+    
+    /**/
+    border: 2px dashed #ff0000; 
 }
 
 /**-+ HIDE THE BASTARD >:) +-**/
@@ -204,28 +205,12 @@ header {
 
 /** NEWS EXPAND CONTENT END **/
 
-#navHExpand {
-    width:23.84%;
-    /*height:90%;*/
-    /* SETTING CHANGED BY JS*/
-    margin-top:0.5%;
-    margin-left:25.24%;
-    padding:0.2%;
-    position:absolute;
-    z-index:1;
-
-    background-color:#F2F2C1;
-    
-    /**/
-    border: 2px dashed #ff0000; 
-}
-
 #navPExpand {
     width:23.84%;
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
     margin-top:0.5%;
-    margin-left:50.10%;
+    margin-left:25.24%;
     padding:0.2%;
     position:absolute;
     z-index:1;
@@ -240,6 +225,25 @@ header {
     width:23.84%;
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
+
+    margin-top:0.5%;
+    margin-left:50.10%;
+    padding:0.2%;
+    position:absolute;
+    z-index:1;
+
+
+    
+    background-color:#74CEB7;
+    
+    /**/
+    border: 2px dashed #ff00dc;
+}
+
+#navHExpand {
+    width:23.84%;
+    /*height:90%;*/
+    /* SETTING CHANGED BY JS*/
     margin-top:0.5%;
     margin-left:75%;
     padding:0.2%;
@@ -247,11 +251,10 @@ header {
     position:absolute;
     z-index:1;
 
-    
-    background-color:#74CEB7;
+    background-color:#F2F2C1;
     
     /**/
-    border: 2px dashed #ff00dc;
+    border: 2px dashed #ff0000; 
 }
 
 /*++ CLASS END ++*/

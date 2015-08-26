@@ -14,12 +14,12 @@ $(document).ready(function () {
     /**** NAV CONTENT HIDE SHOW ****/
 /* CLICK VAR */
     // var counter to show or hide #hidden ID
-    var clickN = 0;  //NEWS
+    //var clickN = 0;  //NEWS [DISABLED]
     var clickH = 0; //HELP OUT
     var clickP = 0; //PREPARE
     var clickM = 0; //MORE INFO
 
-/*++++ NEWS ++++*/
+/*++++ NEWS ++++ [DISABLED]
     
     $(".navNews").click(function () {
         //show nav expand div
@@ -34,7 +34,7 @@ $(document).ready(function () {
             clickN = 0;
         }
 
-    });
+    }); */
 
  /*+++ HELP OUT +++*/
 

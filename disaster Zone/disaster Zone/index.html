@@ -54,8 +54,11 @@
                 center: new google.maps.LatLng(-1.0000, 174.0000), //map location
                 zoom: 2, //zoom level
                 draggable: false, //disable drag
-                zoomControl:false, //disable zoom
-                mapTypeId: google.maps.MapTypeId.TERRAIN
+                zoomControl: false, //disable zoom
+                disableDoubleClickZoom: true, //disables zoom
+                scrollwheel: false, //disables scroll wheel
+                disableDefaultUI: true, //disables UI
+                mapTypeId: google.maps.MapTypeId.TERRAIN //sets terrain view
             }
             var map = new google.maps.Map(mapCanvas, mapOptions)
         }
@@ -245,8 +248,24 @@
         
         <!--+ MAIN CONTAINER +-->
         <div class="container-fluid" id="mainContainerApi">
+
+            <!-- EVENTS -->
+            <!-- #1 -->
+            <div class="earthquake"></div>
+            <!-- #2 -->
+            <div></div>
+            <!-- #3 -->
+            <div></div>
+            <!-- #4 -->
+            <div></div>
+            <!-- #5 -->
+            <div></div>
+            <!-- EVENTS END -->
+
             <!-- GOOGLE MAP API START [PLACEHOLDER] -->
             <div class="googleContainer" id="">
+
+               
                 
                 <!--++ MAP OVERLAY START [PLACEHOLDER, Will be done in-api third project] ++-->
 
@@ -314,7 +333,7 @@
 
                             <!-- #5 -->
                             <tr>
-                                <td><h5>Wild Fire</h5></td>
+                                <td><h5>Fire</h5></td>
                                 <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/light.jpg"></td>
                             </tr>
 
@@ -333,43 +352,7 @@
                 </div>
                 <!-- MAP KEY DIV END -->
 
-                <!-- MAP EVENTS -->
-
-                <!-- #1 -->
-                <div class="">
-
-                </div>
-                <!-- #1 END -->
-
-                <!-- #2 -->
-                <div class="">
-
-                </div>
-                <!-- #2 END -->
-
-                <!-- #3 -->
-                <div class="">
-                </div>
-                <!-- #3 END -->
-
-                <!-- #4 -->
-                <div class="">
-                </div>
-                <!-- #4 END -->
-
-                <!-- #5 -->
-                <div class="">
-                </div>
-                <!-- #5 END -->
-
-                <!-- #6 -->
-                <div class="">
-                </div>
-                <!-- #6 END -->
                 
-                <!-- MAP EVENTS END -->
-
-
                 <!--++ MAP OVERLAY END [PLACEHOLDER, Will be done in-api third project] ++-->
 
                
@@ -378,7 +361,7 @@
 
             </div>
         <!-- GOOGLE MAP API ENDS -->  
-        </div>        
+             
         <!--+- MAIN CONTAINER END -+-->
 
        

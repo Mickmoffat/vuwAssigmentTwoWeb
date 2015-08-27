@@ -286,21 +286,32 @@ article {
     border: 2px dashed red;
 }
 
+/*****++= MAP OVERLAY =++*****/
+
+/**** MAP KEY ****/
+.mapKey {
+    /*height:25%;*/
+    height:37%;
+    height:36vh;
+    /*width:15%;*/
+    width:16vw;    
+    margin-left:55.5vw;
+    margin-top:60vh;
+    position:absolute;
+    z-index:1; /* SETS POS ON Z*/
+
+    /* */
+    background-color:#ffffff; /* WHITE*/
+    border:dotted 2px #f500ff; /* PINK */
+}
+/**** MAP KEY END ****/
+
+/*****++= MAP OVERLAY END =++*****/
+
+
 /**** GOOGLE API ****/
 
-/*** BOOTSTRAP EDIT ***/
-
-.container-fluid {
-/* overflow:hidden;*/
-padding:0.5%;
-/**/
-border:2px solid #7000ff; /*PURPLE*/
-}
-
-
-
-/*** BOOTSTRAP EDIT END ***/
-/*** ID ***/
+/** ID **/
 
 #mainContainerApi {
     width:auto;
@@ -310,12 +321,13 @@ border:2px solid #7000ff; /*PURPLE*/
     border:2px dashed #23a0c2; /* LIGHT BLUE */
 
 }
-/* 
-#googleAPI {
 
-     
-    border:2px solid black; [NeedsFixing] 
-} */
+#googleAPI {
+    width: auto;
+    height: 99vh;
+    /* */
+    border: 1px solid orange;
+}
 
 /*** ID END ***/
 
@@ -330,19 +342,40 @@ border:2px solid #7000ff; /*PURPLE*/
 
 }
 
-#googleAPI {
-    width:auto;
-    height:99vh;
-    
-    
-    /* */
-    border:1px solid orange;
 
-}
+
+
 
 /** CLASS END **/
 
 /**** GOOGLE API END ****/
+
+/*** BOOTSTRAP EDIT ***/
+
+
+
+/*** ID ***/
+
+
+
+/*** ID END ***/
+
+/** CLASS **/
+
+.container-fluid {
+/* overflow:hidden;*/
+padding:0.5%;
+/**/
+border:2px solid #7000ff; /*PURPLE*/
+}
+
+
+/** CLASS END **/
+
+
+/*** BOOTSTRAP EDIT END ***/
+
+
 
 /***** ARTICLE END *****/
 

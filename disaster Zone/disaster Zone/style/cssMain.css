@@ -4,28 +4,50 @@
 
 /**** FONT-SIZE-STYLE ****/
 
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
 /*** HEADER ***/
 h1 {
-    font-family:'Dekar';
+    font-family:'Lato';
     color:rgba(29, 29, 29, 0.54);
     font-size:42px;    
     font-size:2.625em;
     font-size:3.2vw;
+    
     padding:1.5%;
 }
 
 h2 {
-    font-family:'Dekar';
+    font-family:'Lato';
     color:rgba(29, 29, 29, 0.54);
     font-size:42px;    
     font-size:2.625em;
     font-size:2vw;
     padding:1%;
 }
+/** MAP KEY ITEMS **/
+h4 {
+    font-family:'Lato';
+    color:black;
+    font-size:1.2vw;
+    margin:0.2%;
+    padding:0.2%;
+
+}
+
+h5 {
+    font-family:'Lato';
+    color:black;
+    font-size:0.8vw;
+    margin:2%;
+    padding:1.2%;
+}
+
+/** MAP KEY ITEMS END **/
 
 /** PARAGRAPH **/
 p {
-    font-family:'Dekar';
+    font-family:'Lato';
     color:black;
     font-size:18px;
     font-size:1.536em;
@@ -34,16 +56,7 @@ p {
     padding:0.5%;
 }
 
-/** LIST ITEM **/
-li {
-    font-family:'Dekar';
-    color:black;
-    font-size:18px;
-    font-size:1.536em;
-    /*font-size:1.8vh;*/
-    font-size:0.9vw;
-    
-}
+
 
 
 /**** FONT-SIZE-STYLE-END ****/
@@ -301,12 +314,14 @@ article {
 
 /**** MAP KEY ****/
 .mapKey {
-    /*height:25%;*/
-    height:20vh;
-    /*width:15%;*/
-    width:17vw;    
+    /* height:20vh;*/
+    height:26.5%;
+    /* width:17vw;*/
+    width:22.5%;
+       
     margin-left:54.5vw;
-    margin-top:60vh;
+    margin-left:50.5%;
+    margin-top:55vh;
     position:absolute;
     overflow:hidden;
     z-index:1; /* SETS POS ON Z*/
@@ -316,12 +331,47 @@ article {
     border:dotted 2px #f500ff; /* PINK */
 }
 
+/*** MAP KEY TABLE ***/
+
+table {
+    margin:0.2%;
+    padding:0.2%;
+    /* */
+    border:1px solid #0026ff; /*BLUE*/
+}
+
+tr {
+
+   /* */
+   border: 1px solid green;
+}
+
+td {
+    
+    /* */
+    border: 1px solid #4cff00; /*BRIGHT GREEN*/
+}
+
+/* IMG KEY */
+.imgKeyColor {
+    margin-left:73%;
+    margin-left:2vw;
+}
+
+.imgKeyDisasterCode {
+    margin-left:73%;
+    margin-left:3vw;
+}
+
+
+/* IMG KEY END */
 /* DANGER LEVEL */
 .mapKeyColor {
     height:auto;
-    width:48%;
+    width:42%;
     margin-top:0.5%;
     display:inline-block;
+    overflow:hidden;
     
     /* */
     border:1px dotted #ff0000; /* RED */
@@ -332,7 +382,9 @@ article {
     height:auto;
     width:48%;
     margin-top:0.5%;
+    margin-right:8%;
     display:inline-block;
+    overflow:hidden;
     float:right;
 
     /* */

@@ -51,12 +51,15 @@
         function initialize() {
             var mapCanvas = document.getElementById('googleAPI'); //id selector
             var mapOptions = {
-                center: new google.maps.LatLng(42.0000, 174.0000), //map location
-                zoom: 3, //zoom level
+                center: new google.maps.LatLng(-1.0000, 174.0000), //map location
+                zoom: 2, //zoom level
+                draggable: false, //disable drag
+                zoomControl:false, //disable zoom
                 mapTypeId: google.maps.MapTypeId.TERRAIN
             }
             var map = new google.maps.Map(mapCanvas, mapOptions)
         }
+
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
     
@@ -252,28 +255,73 @@
                     <h4>Key</h4>
                     <!-- COL1 MAP KEY COLOR-->
                     <div class="mapKeyColor">
-                        <ul>
-                            <!-- <li>s</li> -->
-                            <li>Severe</li>
-                            <li>Strong</li>
-                            <li>Moderate</li>
-                            <li>Light</li>
-                            <li>Weak</li>
-                        </ul>
+                        <!-- MAP KEY COLOR TABLE -->
+                        
+                            
+                            <table>
+                                <!-- #1 -->
+                                <tr>
+                                    <td><h5>Severe</h5></td>
+                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/severe.jpg"></td>
+                                </tr>
+                                <!-- #2 -->
+                                <tr>
+                                    <td><h5>Strong</h5></td>
+                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/strong.jpg"></td>
+                                </tr>
+                                <!-- #3 -->
+                                <tr>
+                                    <td><h5>Moderate</h5></td>
+                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/moderate.jpg"></td>
+                                </tr>
+                                <!-- #4 -->
+                                <tr>
+                                    <td><h5>Light</h5></td>
+                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/light.jpg"></td>
+                                </tr>                                
+                            </table>
+                        <!-- MAP KEY COLOR TABLE END-->
+                    
                     </div>
+
                     <!-- COL1 END-->
 
                     <!-- COL2 DISASTER CODE-->
                     <div class="mapKeyDisasterCode">
                         <!-- ADD TOP 10 FOR FINAL PROJECT -->
-                        <ul>
-                           <!-- <li>s</li> --> 
-                            <li>Earthquake</li>
-                            <li>Flood</li>
-                            <li>Hurricane</li>
-                            <li>Tornado</li>
-                            <li>Wild Fire</li>
-                        </ul>
+                        <!-- DISASTER TABLE -->
+                        <table>
+                            <!-- #1 -->
+                            <tr>
+                                <td><h5>Earthquake</h5></td>
+                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/severe.jpg"></td>
+                            </tr>
+                            <!-- #2 -->
+                            <tr>
+                                <td><h5>Flood</h5></td>
+                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/strong.jpg"></td>
+                            </tr>
+                            <!-- #3 -->
+                            <tr>
+                                <td><h5>Hurricane</h5></td>
+                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/moderate.jpg"></td>
+                            </tr>
+                            <!-- #4 -->
+                            <tr>
+                                <td><h5>Tornado</h5></td>
+                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/light.jpg"></td>
+                            </tr>
+
+                            <!-- #5 -->
+                            <tr>
+                                <td><h5>Wild Fire</h5></td>
+                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/light.jpg"></td>
+                            </tr>
+
+
+                        </table>
+                        <!-- DISASTER TABLE END -->
+                       
                     </div>
                     </div>
                     <!-- COL2 END -->

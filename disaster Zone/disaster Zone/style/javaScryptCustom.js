@@ -18,6 +18,7 @@ $(document).ready(function () {
     var clickH = 0; //HELP OUT
     var clickP = 0; //PREPARE
     var clickM = 0; //MORE INFO
+    
 
 /*++++ NEWS ++++ [DISABLED]
     
@@ -41,7 +42,7 @@ $(document).ready(function () {
     $(".navHelpOut").click(function () {
         //show nav expand div
         $("#navHExpand").removeClass("hidden");
-        $("#navHExpand").animate({ height: "100%" }); //sets hight and animates
+        $("#navHExpand").animate({ height: "84vh" }); //sets hight and animates
         clickH = clickH + 1; //adds 1 to var
 
         //hide nav expand div
@@ -58,7 +59,7 @@ $(document).ready(function () {
     $(".navPrep").click(function () {
         //show nav expand div
         $("#navPExpand").removeClass("hidden");
-        $("#navPExpand").animate({ height: "100%" }); //sets hight and animates
+        $("#navPExpand").animate({ height: "84vh" }); //sets hight and animates
         clickP = clickP + 1; //adds 1 to var
 
         //hide nav expand div
@@ -75,7 +76,7 @@ $(document).ready(function () {
     $(".navMoreInfo").click(function () {
         //show nav expand div
         $("#navMIExpand").removeClass("hidden");
-        $("#navMIExpand").animate({ height: "100%" }); //sets hight and animates
+        $("#navMIExpand").animate({ height: "84vh" }); //sets hight and animates
         clickM = clickM + 1; //adds 1 to var
 
         //hide nav expand div

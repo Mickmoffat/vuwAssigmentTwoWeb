@@ -34,6 +34,17 @@ p {
     padding:0.5%;
 }
 
+/** LIST ITEM **/
+li {
+    font-family:'Dekar';
+    color:black;
+    font-size:18px;
+    font-size:1.536em;
+    /*font-size:1.8vh;*/
+    font-size:0.9vw;
+    
+}
+
 
 /**** FONT-SIZE-STYLE-END ****/
 
@@ -143,7 +154,7 @@ header {
     width:23.84%;
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
-    height:100vh;
+    height:84vh;
     margin:0.5%;
     padding:0.2%;
     overflow:scroll;
@@ -249,7 +260,7 @@ header {
     padding:0.2%;
     float:right;
     position:absolute;
-    z-index:1;
+    z-index:2;
 
     background-color:#F2F2C1;
     
@@ -291,19 +302,43 @@ article {
 /**** MAP KEY ****/
 .mapKey {
     /*height:25%;*/
-    height:37%;
-    height:36vh;
+    height:20vh;
     /*width:15%;*/
-    width:16vw;    
-    margin-left:55.5vw;
+    width:17vw;    
+    margin-left:54.5vw;
     margin-top:60vh;
     position:absolute;
+    overflow:hidden;
     z-index:1; /* SETS POS ON Z*/
 
     /* */
     background-color:#ffffff; /* WHITE*/
     border:dotted 2px #f500ff; /* PINK */
 }
+
+/* DANGER LEVEL */
+.mapKeyColor {
+    height:auto;
+    width:48%;
+    margin-top:0.5%;
+    display:inline-block;
+    
+    /* */
+    border:1px dotted #ff0000; /* RED */
+}
+
+/*= DISARSTER CODES =*/
+.mapKeyDisasterCode {
+    height:auto;
+    width:48%;
+    margin-top:0.5%;
+    display:inline-block;
+    float:right;
+
+    /* */
+    border:1px dotted rgba(29, 29, 29, 0.54); /* GREY */
+}
+
 /**** MAP KEY END ****/
 
 /*****++= MAP OVERLAY END =++*****/
@@ -324,7 +359,8 @@ article {
 
 #googleAPI {
     width: auto;
-    height: 99vh;
+    height: 83.2vh; /* 99 */
+    overflow:hidden;
     /* */
     border: 1px solid orange;
 }
@@ -336,6 +372,7 @@ article {
     overflow:hidden;
     width:auto;
     height:100%;
+    
     
     /* */
     border:2px dashed black;

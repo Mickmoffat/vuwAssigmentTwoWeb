@@ -71,18 +71,18 @@ $(document).ready(function () {
 
     });
 
-/*+ MORE INFO +*/
+/*+ COMMUNICATION +*/
 
-    $(".navMoreInfo").click(function () {
+    $(".navCommunication").click(function () {
         //show nav expand div
-        $("#navMIExpand").removeClass("hidden");
-        $("#navMIExpand").animate({ height: "84vh" }); //sets hight and animates
+        $("#navComExpand").removeClass("hidden");
+        $("#navComExpand").animate({ height: "84vh" }); //sets hight and animates
         clickM = clickM + 1; //adds 1 to var
 
         //hide nav expand div
         if (clickM == 2) {
-            $("#navMIExpand").addClass("hidden");
-            $("#navMIExpand").animate({ height: "0%" }); //sets hight to 0%
+            $("#navComExpand").addClass("hidden");
+            $("#navComExpand").animate({ height: "0%" }); //sets hight to 0%
             clickM = 0;
         }
 

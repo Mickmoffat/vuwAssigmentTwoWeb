@@ -59,13 +59,13 @@ $(document).ready(function () {
     $(".navPrep").click(function () {
         //show nav expand div
         $("#navPExpand").removeClass("hidden");
-        $("#navPExpand").animate({ height: "84vh" }); //sets hight and animates
+        $("#navPExpand").animate({ height: "auto" }); //sets hight and animates
         clickP = clickP + 1; //adds 1 to var
 
         //hide nav expand div
         if (clickP == 2) {
             $("#navPExpand").addClass("hidden");
-            $("#navPExpand").animate({ height: "0%" }); //sets hight to 0%
+            $("#navPExpand").animate({ height: "auto" }); //sets hight to 0%
             clickP = 0;
         }
 

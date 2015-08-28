@@ -57,6 +57,18 @@ p {
     padding:0.5%;
 }
 
+/** LIST ELEMENT **/
+/* UNSORTED */
+ul {
+    font-family:'Lato';
+    color:black;
+    font-size:18px;
+    font-size:1.536em;
+    /*font-size:1.8vh;*/
+    font-size:0.9vw;
+
+}
+/* SORTED */
 
 
 
@@ -84,6 +96,33 @@ header {
    border: 2px dashed orange;
 }
 
+/*** HEADER CONTENT ***/
+
+/* CLASS */
+.headerLogo {
+    width:;
+    height:;
+    float:left;
+    margin:;
+    padding:;
+    /* */
+    border:2px solid #00ff34; /*BRIGHT GREEN*/
+}
+
+.headerAlert {
+    width:;
+    height:;
+    float:right;
+    margin:;
+    padding:;
+    /* */
+    border:2px solid #b716ee; /*PURPLE*/
+
+}
+
+/* ID */
+
+/*** HEADER CONTENT END ***/
 /**** NAV BAR ****/
 
 /*** NAV ID [NEEDS FIXING] ***/
@@ -238,6 +277,7 @@ header {
     margin-left:25.24%;
     padding:0.2%;
     position:absolute;
+    
     z-index:4;
 
     background-color:#C9FFD5;

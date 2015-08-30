@@ -44,7 +44,7 @@
     
     
 <!---===== JQuery Plug-in Load =====--->
-    <!--== GOOGLE API [ENABLED] 
+    <!--== GOOGLE API [DISABLED] 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> ==-->
 
     <!-- ENABLE BEFORE PAGE LOAD -->
@@ -69,8 +69,8 @@
         google.maps.event.addDomListener(window, 'load', initialize);
     </script> -->
 
-    <script> //needsFIXING
-
+    <script> //needsFIXING [DISABLED FOR NOW]
+        /* 
         function initialize() {
             var myLatLng = { lat: -1.000, lng: 174.000 }; //map location
 
@@ -87,18 +87,19 @@
             }
             var map = new google.maps.Map(mapCanvas, mapOptions)
 
-            /*ADD MAP MARKERS
+            ADD MAP MARKERS
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
                 title: 'Hello World!'
-            }); */
+            });
         }
-        google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, 'load', initialize); */
 </script>
-
+    <!--GOOGLE API [DISABLED]
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
+        -->
         <!---==== JavaScrypt ====--->
 
         <!---=== Internal [DISABLED]
@@ -136,6 +137,7 @@
         <div class="container-fluid">
 
             <div class="headerLogo">
+                <img src="" alt="Disaster Zone">
             </div>
 
         
@@ -145,13 +147,33 @@
 
         <!-- HEADER ALERTS -->
         <!-- CONTAIN -->
-        
+
+        <!-- NOT WORKING -->
 
            <!-- HEADER CONT -->
+            <!-- ALERT CONTAIN -->
              <div class="headerAlert">
+                 <div id="" class="altertText">
+                 <h3>ALERTS</h3>
+                 </div>
+                 
+                     <!-- EMAIL ALERT -->
+                     <div id="alertID" class="emailAlert">
+                     </div>
+                     <!-- SMS ALERT -->
+                     <div id="alertID" class="smsAlert">
+                     </div>
+                     <!-- RADIO ALERT -->
+                     <div id="alertID" class="radioAlert">
+                     </div>
+                
 
             </div>
-            <!-- HEADER CONT -->
+
+            <!-- NOT WORKING -->
+            <!-- ALERT CONTAIN END -->
+
+            <!-- HEADER CONTAIN -->
         </div>
         <!-- CONTAIN END -->
 

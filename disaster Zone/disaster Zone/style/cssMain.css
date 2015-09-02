@@ -35,8 +35,7 @@ h3 {
     font-size:42px;    
     font-size:2.625em;
     font-size:1.8vw;
-    margin-left:3%;
-    padding:0px;
+    padding:0;
 }
 
  /*-- NOT WORKING --*/
@@ -133,9 +132,10 @@ header {
     height:14vh;
     height:auto;
 
+    position:relative;
     float:right;
-    margin-right:0.5%;
     padding:0.5%;
+    margin-right:0.5%;
     /* */
     background-color:#ff530d; /* ORANGE */
     border:2px solid #b716ee; /*PURPLE*/
@@ -204,6 +204,34 @@ height:auto;
 /* ID */
 
 /* ALERTS SHOW */
+/* alerts div pop up*/
+.alertsPopUpDiv {
+
+    /**/
+    border:2px solid green;
+
+}
+/* ID */
+
+/* CLASS */
+.smsAlertShow {
+    width:23.59vw;
+    width:23.6%;
+    height:14vh;
+    height:auto;
+    margin-left:75%;
+  
+    padding:0.5%;
+    position:absolute;
+    float:right;
+    z-index:2;
+
+    /*  margin-top:; */
+    background-color:#ff530d; /* ORANGE */
+    border:2px solid #b716ee; /*PURPLE*/
+    overflow:hidden;
+
+}
 /* ALERTS SHOW END */
 
 /*** HEADER CONTENT END ***/
@@ -265,6 +293,7 @@ height:auto;
 .navHelpOut {
     float:right;
     background-color:#F2F2C1;
+
     
     /**/
     border: 2px dashed #ff0000; 

@@ -158,11 +158,11 @@
                  </div>
                  
                      <!-- SMS ALERT -->
-                     <div id="alertID" class="emailAlert">
-                         <img id="imgAlert" src="./img/alerts/sms.png" alt="SMS">
-                     </div>
+                 <div id="alertID" class="smsAlert">
+                     <img id="imgAlert" src="./img/alerts/sms.png" alt="SMS">
+                 </div>
                      <!-- EMAIL ALERT -->
-                     <div id="alertID" class="smsAlert">
+                     <div id="alertID" class="emailAlert">
                          <img id="imgAlert" src="./img/alerts/email.png" alt="EMAIL">
                      </div>
                      <!-- RADIO ALERT -->
@@ -172,19 +172,45 @@
 
                </div>
 
-            <!-- ALERTS SHOW -->
-
-            <!-- ALERTS SHOW END -->
-
-
             <!-- NOT WORKING -->
             <!-- ALERT CONTAIN END -->
 
             <!-- HEADER CONTAIN -->
+
         </div>
         <!-- CONTAIN END -->
 
         <!-- HEADER ALERTS END -->
+
+        <!--++== ALERTS POP UP DIV ==++-->
+        <div class="alertsPopUpDiv">
+
+            <!-- ALERTS SHOW -->
+            <!--+ SMS ALERT +-->
+            <div id="#" class="smsAlertShow">
+                <h3>SMS</h3>
+
+                <p>Sign up for disaster zone alerts get notified of disasters in your area directly to your phone.</p>
+
+                <!--SMS FORM -->
+                <form>
+                    <input type="text" name="Email">
+                    <input type="text" name="Country">
+                    <input type="text" name="Town">
+                    <input type="text" name="Post Code">
+              </form>
+                <!--TERMS OF SERVICE FORM -->
+                <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your email address above. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
+                <form>
+                    <input type="radio" name="agree" value="Yes">Yes
+                    <input type="radio" name="agree" value="No" checked>No
+                </form>
+            </div>
+            <!--++ EMAIL ALERT ++-->
+
+            <!--+++ RADIO ALERT +++-->
+        </div>
+        <!--++== ALERTS POP UP DIV END ==++-->
 
         <!-- MORE INFO HIDE >:) -->
         <div class="moreInfoHide">
@@ -204,12 +230,16 @@
                 <h1 id="h1NavHeader">Communication</h1>
             </div>
 
-            <!--+++ HELP OUT +++-->
+           <!--+++ HELP OUT +++-->
             <div class="navHelpOut" id="navBar">
                 <h1 id="h1NavHeader">Help Out</h1>
             </div>
             <!-- MORE INFO HIDE -->
+
+            <!-- ALERTS SHOW END -->
         </div>
+
+
 
     </header>
     <!-- HEADER END -->
@@ -372,6 +402,7 @@
     </div>
 
     <!--+++++== NAV EXPAND END ==++++-->
+
 
     <!-- ARTICLE STARTS -->
     <article>

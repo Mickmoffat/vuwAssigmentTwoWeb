@@ -191,30 +191,34 @@
                 <!--[DISALBED]<h3>SMS</h3>-->
 
                 <p>Sign up for disaster zone alerts get notified of disasters in your area directly to your phone.</p>
+                <!--SMS FORM TITLES-->
 
+                <!--SMS FORM TITLES END-->
                 <!--SMS FORM -->
                 <form>
                     <!-- INPUT DIV 1 -->
                     <div class="inputDivRow1">
-                        Phone Number: <!--SET VALUE TO NUMBER [P3]-->
+                        <h6>Phone:</h6><!--SET VALUE TO NUMBER [P3]-->
                         <input type="text" placeholder="027 4689 4531" name="SMS" maxlength="11" required>
-                        <br />Country:
+                        <br>
+                        <h6>Country:</h6>
                         <input type="text" placeholder="New Zealand" name="Country" required>
                     </div>
                     <!-- INPUT DIV 1 END -->
 
                     <!-- INPUT DIV 2 -->
                     <div class="inputDivRow2">
-                        Town:
+                        <h6>Town:</h6>
                         <input type="text" placeholder="Kapiti" name="Town" required>
-                        Post Code: <!--SET VALUE TO NUMBER [P3]-->
+                        <br>
+                        <h6>Post Code:</h6> <!--SET VALUE TO NUMBER [P3]-->
                         <input type="text" placeholder="5026" name="Post Code" maxlength="5" required>
                     </div>
                     <!-- INPUT DIV 2 END -->
                     <!--TERMS OF SERVICE FORM -->
                     <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your email address above. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
-                    <input type="radio" name="agree" value="Yes">Yes
-                    <input type="radio" name="agree" value="No" checked>No
+                    <input type="radio" name="agree" value="Yes"><h6>Yes</h6>
+                    <input type="radio" name="agree" value="No" checked><h6>No</h6>
 
                     <!-- SUBMIT -->
                     <input type="submit" value="Submit">

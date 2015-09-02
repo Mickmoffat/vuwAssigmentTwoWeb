@@ -28,7 +28,7 @@ h2 {
     padding:0.2%;
 }
  /*-- NOT WORKING --*/
-/* ALERT  */
+/* ALERT  [DISABLED REPLACED BY IMG]*/
 h3 {
     font-family:'Lato';
     color:rgba(29, 29, 29, 0.54);
@@ -36,6 +36,18 @@ h3 {
     font-size:2.625em;
     font-size:1.8vw;
     padding:0;
+}
+
+/* ALERT FROM TITLE */
+h6 {
+    font-family:'Lato';
+    color:white;
+    font-size:20px;
+    font-size:1.1vw;
+    margin:0.5%;
+    padding:0.8%;
+    display:inline-block;
+
 }
 
  /*-- NOT WORKING --*/
@@ -239,15 +251,62 @@ input {
 
 
 }
-
+/* FORM TEXT SYTLE */
 input[type=text]{
-    width:25%;
+    width:35%;
+    height:1.3vw; 
 }
 
+input[type=text]:first-child{
+    width:35%;
+    height:1.8vw; 
+}
+
+/* FORM RADIO STYLE [FIX LATER
+input[name=agree] {
+    font-family:'Lato';
+    font-size:1.1vw;
+    ]*/
+input[type=submit]{
+font-family:'Lato';
+    font-size:1.1vw;
+}
+    
+    }
+/* NUMBER FORM [DISABLED P3]
 input[type=number]{
     width:25%;
     -webkit-appearance: none; 
 }
+*/
+/*+ PLACEHOLDER TEXT STYLE +*/
+::-webkit-input-placeholder {
+   font-family:'Lato';
+   font-size:1.1vw;
+   color: grey;
+     
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family:'Lato';
+   font-size:1.1vw;
+   color: grey;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family:'Lato';
+   font-size:1.1vw;
+   color: grey;
+}
+
+:-ms-input-placeholder {  
+   font-family:'Lato';
+   font-size:1.1vw;
+   color: grey; 
+}
+
+/*+ PLACEHOLDER TEXT STYLE END +*/
+
 
 
 /** INPUT DIV **/
@@ -258,21 +317,19 @@ input[type=number]{
     border:2px dashed #FFFFCB; /*CREME*/
 }
 
-
-
 .inputDivRow2 {
     width:100%;
     display:inline-block;
     /* */
     border:2px solid #c916de; /*PURPLE*/
 }
-
+/* [DISABLED]
 .inputDivRow2:first-child input[type=text] {
     
         margin-left:25px;
         margin-left:2vw;
     }
-
+*/
 /*** HEADER CONTENT END ***/
 /**** NAV BAR ****/
 

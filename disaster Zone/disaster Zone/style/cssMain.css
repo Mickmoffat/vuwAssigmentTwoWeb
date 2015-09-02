@@ -234,6 +234,45 @@ height:auto;
 }
 /* ALERTS SHOW END */
 
+/**++ FORM ++**/
+input {
+
+
+}
+
+input[type=text]{
+    width:25%;
+}
+
+input[type=number]{
+    width:25%;
+    -webkit-appearance: none; 
+}
+
+
+/** INPUT DIV **/
+.inputDivRow1 {
+    width:100%;
+    display:inline-block;
+    /* */
+    border:2px dashed #FFFFCB; /*CREME*/
+}
+
+
+
+.inputDivRow2 {
+    width:100%;
+    display:inline-block;
+    /* */
+    border:2px solid #c916de; /*PURPLE*/
+}
+
+.inputDivRow2:first-child input[type=text] {
+    
+        margin-left:25px;
+        margin-left:2vw;
+    }
+
 /*** HEADER CONTENT END ***/
 /**** NAV BAR ****/
 

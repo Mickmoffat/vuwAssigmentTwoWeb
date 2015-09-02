@@ -36,6 +36,7 @@ h3 {
     font-size:2.625em;
     font-size:1.8vw;
     margin-left:3%;
+    padding:0px;
 }
 
  /*-- NOT WORKING --*/
@@ -124,41 +125,52 @@ header {
 
 /* HEADER ALERT CONTAIN */
  /*-- NOT WORKING --*/
+
 .headerAlert {
+    
+    width:23.59vw;
     width:23.84%;
-    height:100px;
+    height:14vh;
+    height:auto;
 
     float:right;
-    margin:;
-    padding:;
+    margin-right:0.5%;
+    padding:0.5%;
     /* */
     background-color:#ff530d; /* ORANGE */
     border:2px solid #b716ee; /*PURPLE*/
     overflow:hidden;
 
+
 }
 
 /* ALERT TEXT */
-.altertText {
-    width:29%;
-    height:100%;
-    padding:0.5%;
+#altertText {
+    width:27%;
+    height:99%;
+    margin:0.5%;
     display:inline-block;
-
-     
-    /**/
-    border:2px solid #ffffff;
+    
+    /* */
+    border: 1px solid #C9FFD5;
 
 }
 
 #alertText {
 display:inline-block;
 }
+
+#imgAlert {
+width:100%;
+height:auto;
+
+}
 /* HEADER ALERTS */
 /*ALERT ID*/
 #alertID {
     width:20%;
     height:99%;
+    margin:0.5%;
     display:inline-block;
     
     /* */
@@ -174,9 +186,9 @@ display:inline-block;
 
 /* SMS */
 .smsAlert {
-
+ 
     /**/
-    border:1px dotted #ffffff; /* WHITE*/
+    border:1px dotted black; /* WHITE*/
 }
 
 /* RADIO */
@@ -187,8 +199,12 @@ display:inline-block;
     border:1px dashed #d8e10e; /*EW YELLO*/
 
 }
+
  /*-- NOT WORKING --*/
 /* ID */
+
+/* ALERTS SHOW */
+/* ALERTS SHOW END */
 
 /*** HEADER CONTENT END ***/
 /**** NAV BAR ****/

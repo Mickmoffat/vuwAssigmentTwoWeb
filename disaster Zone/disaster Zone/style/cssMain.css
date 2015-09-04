@@ -10,7 +10,7 @@
 /*** HEADER ***/
 h1 {
     font-family:'Lato';
-    color:rgba(29, 29, 29, 0.54);
+    color:white;
     font-size:42px;    
     font-size:2.625em;
     font-size:3.2vw;
@@ -139,14 +139,13 @@ header {
 
 .headerAlert {
     width:23.84%;
-    height:14vh;
     height:auto;
-
-    
     float:right;
     margin-right:0.5%;
     padding:0.5%;
     display:inline-block;
+    border-radius:20px;
+    border-radius:1.250em;
     
     /* */
     background-color:#ff530d; /* ORANGE */
@@ -398,6 +397,9 @@ input[type=number]{
     margin:0.5%;
     display:inline-block;
 
+    /*COLOR*/
+    /*background-color:#1BBD91;  BLUE */
+
     /*border: 2px dashed #c916de;*/
   }
 
@@ -409,23 +411,26 @@ input[type=number]{
 /** NAV CLASS **/
 .navNews {
     float:left;
-    background-color:#FFFFCB;
-
-    /**/
-    border: 2px dashed #c916de;
+    border-radius:20px;
+    border-radius:1.250em;
+    background-color:#F3841E;
+    /*
+    border: 2px dashed #c916de;*/
 }
 
 .navPrep {
-    background-color:#C9FFD5;
-    
-    /**/
-    border: 2px dashed #0026ff;
+    border-radius:20px;
+    border-radius:1.250em;
+
+    /*
+    border: 2px dashed #0026ff;*/
 }
 
 .navCommunication {
-
+    border-radius:20px;
+    border-radius:1.250em;
     
-    background-color:#74CEB7;
+    
 
     /*[NEEDS FIXING]*/
     /* WORKS BUT NOT FULLSCREEN
@@ -437,18 +442,20 @@ input[type=number]{
     
     margin-top:-125px;
     margin-top:-6.5%;
-    margin-left:75.1%; */ 
+    margin-left:75.1%; 
 
-    border: 2px dashed #ff00dc;
+    border: 2px dashed #ff00dc;*/ 
 }
 
 .navHelpOut {
     float:right;
-    background-color:#F2F2C1;
+    border-radius:20px;
+    border-radius:1.250em;
+    
 
     
-    /**/
-    border: 2px dashed #ff0000; 
+    /*
+    border: 2px dashed #ff0000; */
 }
 
 /**-+ HIDE THE BASTARD >:) +-**/
@@ -457,6 +464,8 @@ input[type=number]{
     width:100%;
     height:15%;
     overflow:hidden;
+    /*COLOR*/
+    background-color:#F1F2F4;
     /*[NEEDS FIXING]*/
     border: 2px solid #ff00dc;
 }
@@ -488,10 +497,11 @@ input[type=number]{
     border: 2px dashed #c916de;
 }
 
-/** NEWS EXPAND CONTENT **/
+/** NEWS EXPAND CONTENT [ADD HIDDEN ELEMENT IN JQ EXPAND ON CLICK [P3]]**/
 .NSCR1 {
     height:auto;
     margin-bottom:0.5%;
+    overflow:hidden;
     /**/
     border:1px solid #00d1ab; /* BLUE */
 }
@@ -619,12 +629,21 @@ input[type=number]{
 
 /***** HEADER FINISH *****/
 
+/* HTML */
+html {
 
+/* COLOR */
+ background-color:#F7F7F7;
+}
 
 /***** ARTICLE *****/
 article {
     height:75%;
     border: 2px dashed red;
+    
+    /* colors */
+    background-color:#F7F7F7;
+    
 }
 
 /*****++= MAP OVERLAY =++*****/

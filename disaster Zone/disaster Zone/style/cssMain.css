@@ -225,9 +225,7 @@ height:auto;
 
 }
 /* ID */
-
-/* CLASS */
-.smsAlertShow {
+#smsAlertShow {
     width:23.34%;
     height:auto;
     margin-left:74.65%;
@@ -259,6 +257,9 @@ height:auto;
     border:2px solid #b716ee; /*PURPLE*/
     overflow:hidden;
 }
+
+/* CLASS */
+
 /* ALERTS SHOW END */
 
 /**++ FORM ++**/

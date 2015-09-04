@@ -11,6 +11,11 @@ $(document).ready(function () {
 
     }); */
 
+    /****^ ALERTS SHOW ^****/
+    var clickSMS = 0;
+    var clickEMAIL = 0;
+    var clickRADIO = 0;
+
     /**** NAV CONTENT HIDE SHOW ****/
 /* CLICK VAR */
     // var counter to show or hide #hidden ID
@@ -19,6 +24,32 @@ $(document).ready(function () {
     var clickP = 0; //PREPARE
     var clickM = 0; //MORE INFO
     
+
+    /****^ ALERTS SHOW ^****/
+
+    /*^^^ SMS ^^^*/
+    $(".smsAlert").click(function () {
+        //show nav expand div
+        $("#smsAlertShow").removeClass("hidden");
+        $("#smsAlertShow").animate({ height: "auto" }); //sets hight and animates
+        clickH = clickH + 1; //adds 1 to var
+
+        //hide nav expand div
+        if (clickH == 2) {
+            $("#smsAlertShow").addClass("hidden");
+            $("#smsAlertShow").animate({ height: "auto" }); //sets hight to 0%
+            clickH = 0;
+        }
+
+    });
+
+    /*^^ EMAIL ^^*/
+
+    /*^ RADIO ^*/
+
+    /****^ ALERTS SHOW END ^****/
+
+
 
 /*++++ NEWS ++++ [DISABLED]
     

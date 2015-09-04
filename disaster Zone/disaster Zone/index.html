@@ -136,9 +136,9 @@
         <!-- CONTAIN -->
         <div class="container-fluid">
 
-            <div class="headerLogo">
+           <!-- <div class="headerLogo"> [DISABLED ALERTS]
                 <img src="" alt="Disaster Zone">
-            </div>
+            </div> -->
 
         
         <!-- CONTAIN END -->
@@ -177,15 +177,12 @@
 
             <!-- ALERTS SHOW -->
             <!--+ SMS ALERT +-->
-            <div id="#" class="smsAlertShow">
+            <div id="alertsPosition" class="">
                 <!--[DISALBED]<h3>SMS</h3>-->
-
                 <p>Sign up for disaster zone alerts get notified of disasters in your area directly to your phone.</p>
                 <!--SMS FORM TITLES-->
                 <!-- SMS FORM CONTAIN -->
-
                 <div class="container-fluid">
-
                     <div id="inputDiv" class="inputDivRow1">
                         <h6>Phone:</h6>
                         <br>
@@ -200,16 +197,13 @@
                     <!-- INPUT DIV 2 -->
                     <div id="inputDiv" class="inputDivRow2">
                         <form>
-                            <!--PHONE NUMBER -->                            
+                            <!--PHONE NUMBER -->
                             <!--SET VALUE TO NUMBER [P3]-->
                             <input type="text" placeholder="027 4689 4531" name="SMS" maxlength="11" required>
-
                             <!--COUNTRY-->
                             <input type="text" placeholder="New Zealand" name="Country" required>
-
                             <!--TOWN -->
                             <input type="text" placeholder="Kapiti" name="Town" required>
-
                             <!--POST CODE--> <!--SET VALUE TO NUMBER [P3]-->
                             <input type="text" placeholder="5026" name="Post Code" maxlength="5" required>
                         </form>
@@ -217,18 +211,15 @@
                     </div>
                     <!-- SMS FORM CONTAIN END-->
                 </div>
-
                 <!--TERMS OF SERVICE FORM [FIX THIS Y O N PREVENT PAGE]-->
                 <form>
                     <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your email address above. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
                     <input type="radio" name="agree" value="Yes"><h6>Yes</h6>
                     <input type="radio" name="agree" value="No" checked><h6>No</h6>
-
                     <!-- SUBMIT -->
                     <input type="submit" value="Submit">
                 </form>
                 <!--SMS FORM END -->
-
 
             </div>
             <!--++ EMAIL ALERT ++-->

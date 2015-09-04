@@ -36,6 +36,8 @@ $(document).ready(function () {
         //adds hidden class to other alerts, to hide when div clicked
         $("#emailAlertShow").addClass("hidden");
         $("#radioAlertShow").addClass("hidden");
+        //hide helpout
+        $("#navHExpand").addClass("hidden");
         clickSMS = clickSMS + 1; //adds 1 to var
 
         //hide nav expand div
@@ -56,6 +58,8 @@ $(document).ready(function () {
         //adds hidden class to other alerts, to hide when div clicked
         $("#smsAlertShow").addClass("hidden");
         $("#radioAlertShow").addClass("hidden");
+        //hide helpout
+        $("#navHExpand").addClass("hidden");
 
         clickEMAIL = clickEMAIL + 1; //adds 1 to var
 
@@ -78,6 +82,8 @@ $(document).ready(function () {
         //adds hidden class to other alerts, to hide when div clicked
         $("#smsAlertShow").addClass("hidden");
         $("#emailAlertShow").addClass("hidden");
+        //hide helpout
+        $("#navHExpand").addClass("hidden");
 
         clickRADIO = clickRADIO + 1; //adds 1 to var
 
@@ -112,23 +118,6 @@ $(document).ready(function () {
 
     }); */
 
- /*+++ HELP OUT +++*/
-
-    $(".navHelpOut").click(function () {
-        //show nav expand div
-        $("#navHExpand").removeClass("hidden");
-        $("#navHExpand").animate({ height: "84vh" }); //sets hight and animates
-        clickH = clickH + 1; //adds 1 to var
-
-        //hide nav expand div
-        if (clickH == 2) {
-            $("#navHExpand").addClass("hidden");
-            $("#navHExpand").animate({ height: "0%" }); //sets hight to 0%
-            clickH = 0;
-        }
-
-    });
-
 /*++ PREPARE ++*/
 
     $(".navPrep").click(function () {
@@ -151,17 +140,36 @@ $(document).ready(function () {
     $(".navCommunication").click(function () {
         //show nav expand div
         $("#navComExpand").removeClass("hidden");
-        $("#navComExpand").animate({ height: "84vh" }); //sets hight and animates
+        $("#navComExpand").animate({ height: "auto" }); //sets hight and animates
         clickM = clickM + 1; //adds 1 to var
 
         //hide nav expand div
         if (clickM == 2) {
             $("#navComExpand").addClass("hidden");
-            $("#navComExpand").animate({ height: "0%" }); //sets hight to 0%
+            $("#navComExpand").animate({ height: "auto" }); //sets hight to 0%
             clickM = 0;
         }
 
     });
+
+
+/*+++ HELP OUT +++*/
+
+    $(".navHelpOut").click(function () {
+        //show nav expand div
+        $("#navHExpand").removeClass("hidden");
+        $("#navHExpand").animate({ height: "auto" }); //sets hight and animates
+        clickH = clickH + 1; //adds 1 to var
+
+        //hide nav expand div
+        if (clickH == 2) {
+            $("#navHExpand").addClass("hidden");
+            $("#navHExpand").animate({ height: "auto" }); //sets hight to 0%
+            clickH = 0;
+        }
+
+    });
+
 
     
 });

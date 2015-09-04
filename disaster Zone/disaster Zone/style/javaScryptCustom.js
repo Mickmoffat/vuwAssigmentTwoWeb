@@ -170,6 +170,23 @@ $(document).ready(function () {
 
     });
 
+    /*^& CLEAR ALL DROP DOWNS ON CLICK MAIN CONTAINER &^*/
+
+    $("#mainContainerApi").click(function () {
+      
+//hide main drop down containers
+        $("#navHExpand").addClass("hidden");
+        $("#navComExpand").addClass("hidden");
+        $("#navPExpand").addClass("hidden");
+
+//hide alert drop down containers
+        $("#smsAlertShow").addClass("hidden");
+        $("#emailAlertShow").addClass("hidden");
+        $("#radioAlertShow").addClass("hidden");
+       
+
+    });
+
 
     
 });

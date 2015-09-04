@@ -171,11 +171,15 @@ $(document).ready(function () {
     });
 
     /*^& CLEAR ALL DROP DOWNS ON CLICK MAIN CONTAINER &^*/
+    //slight bug after clearing, by clicking on container div requres double click to get drop down to work again
 
     $("#mainContainerApi").click(function () {
       
-//hide main drop down containers
-        $("#navHExpand").addClass("hidden");
+        //hide main drop down containers
+        if ('*[class=""]') {
+            $("#navHExpand").addClass("hidden");
+        }
+        
         $("#navComExpand").addClass("hidden");
         $("#navPExpand").addClass("hidden");
 

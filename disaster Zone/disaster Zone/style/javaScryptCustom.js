@@ -26,26 +26,70 @@ $(document).ready(function () {
     
 
     /****^ ALERTS SHOW ^****/
+    /*[WORKS BUT A LIL DERPY, NEED TO FIX SWAPPING BETWEEN ALERTS [P3]]*/
 
     /*^^^ SMS ^^^*/
     $(".smsAlert").click(function () {
         //show nav expand div
         $("#smsAlertShow").removeClass("hidden");
         $("#smsAlertShow").animate({ height: "auto" }); //sets hight and animates
-        clickH = clickH + 1; //adds 1 to var
+        //adds hidden class to other alerts, to hide when div clicked
+        $("#emailAlertShow").addClass("hidden");
+        $("#radioAlertShow").addClass("hidden");
+        clickSMS = clickSMS + 1; //adds 1 to var
 
         //hide nav expand div
-        if (clickH == 2) {
+        if (clickSMS == 2) {
             $("#smsAlertShow").addClass("hidden");
             $("#smsAlertShow").animate({ height: "auto" }); //sets hight to 0%
-            clickH = 0;
+
+            clickSMS = 0;
         }
 
     });
 
     /*^^ EMAIL ^^*/
+    $(".emailAlert").click(function () {
+        //show nav expand div
+        $("#emailAlertShow").removeClass("hidden");
+        $("#emailAlertShow").animate({ height: "auto" }); //sets hight and animates
+        //adds hidden class to other alerts, to hide when div clicked
+        $("#smsAlertShow").addClass("hidden");
+        $("#radioAlertShow").addClass("hidden");
+
+        clickEMAIL = clickEMAIL + 1; //adds 1 to var
+
+        //hide nav expand div
+        if (clickEMAIL == 2) {
+            $("#emailAlertShow").addClass("hidden");
+            $("#emailAlertShow").animate({ height: "auto" }); //sets hight to 0%
+
+            clickEMAIL = 0;
+        }
+
+    });
+
 
     /*^ RADIO ^*/
+    $(".radioAlert").click(function () {
+        //show nav expand div
+        $("#radioAlertShow").removeClass("hidden");
+        $("#radioAlertShow").animate({ height: "auto" }); //sets hight and animates
+        //adds hidden class to other alerts, to hide when div clicked
+        $("#smsAlertShow").addClass("hidden");
+        $("#emailAlertShow").addClass("hidden");
+
+        clickRADIO = clickRADIO + 1; //adds 1 to var
+
+        //hide nav expand div
+        if (clickRADIO == 2) {
+            $("#radioAlertShow").addClass("hidden");
+            $("#radioAlertShow").animate({ height: "auto" }); //sets hight to 0%
+
+            clickRADIO = 0;
+        }
+
+    });
 
     /****^ ALERTS SHOW END ^****/
 

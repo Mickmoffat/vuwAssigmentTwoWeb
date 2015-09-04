@@ -172,10 +172,10 @@
 
                </div>
 
-            <!-- NOT WORKING -->
+            <!-- [NEEDS FIXING BUT WORKS KINDA] -->
             <!-- ALERT CONTAIN END -->
 
-            <!-- ALERTS SHOW [NEEDS FIXING BUT WORKS KINDA]-->
+            <!-- ALERTS SHOW -->
             <!--+ SMS ALERT +-->
             <div id="smsAlertShow" class="hidden">
                 <!--[DISALBED]<h3>SMS</h3>-->
@@ -213,7 +213,7 @@
                 </div>
                 <!--TERMS OF SERVICE FORM [FIX THIS Y O N PREVENT PAGE]-->
                 <form>
-                    <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your email address above. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
+                    <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your phone number. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
                     <input type="radio" name="agree" value="Yes"><h6>Yes</h6>
                     <input type="radio" name="agree" value="No" checked><h6>No</h6>
                     <!-- SUBMIT -->
@@ -222,8 +222,127 @@
                 <!--SMS FORM END -->
 
             </div>
+
             <!--++ EMAIL ALERT ++-->
+            <div id="emailAlertShow" class="hidden">
+                <!--[DISALBED]<h3>EMAIL</h3>-->
+                <p>Sign up for disaster zone alerts get notified of disasters in your area directly to your email.</p>
+                <!--EMAIL FORM TITLES-->
+                <!-- EMAIL FORM CONTAIN -->
+                <div class="container-fluid">
+                    <div id="inputDiv" class="inputDivRow1">
+                        <h6>Email:</h6>
+                        <br>
+                        <h6>Country:</h6>
+                        <br>
+                        <h6>Town:</h6>
+                        <br>
+                        <h6>Post Code:</h6>
+                    </div>
+                    <!--EMAIL FORM TITLES END-->
+                    <!--EMAIL FORM -->
+                    <!-- INPUT DIV 2 -->
+                    <div id="inputDiv" class="inputDivRow2">
+                        <form>
+                            <!--EMAIL ADDRESS -->
+                            <!--SET VALUE TO EMAIL [P3]-->
+                            <input type="text" placeholder="yourname@gmail.com" name="EMAIL" required>
+                            <!--COUNTRY-->
+                            <input type="text" placeholder="New Zealand" name="Country" required>
+                            <!--TOWN -->
+                            <input type="text" placeholder="Kapiti" name="Town" required>
+                            <!--POST CODE--> <!--SET VALUE TO NUMBER [P3]-->
+                            <input type="text" placeholder="5026" name="Post Code" maxlength="5" required>
+                        </form>
+                        <!-- INPUT DIV 2 END -->
+                    </div>
+                    <!-- EMAIL FORM CONTAIN END-->
+                </div>
+                <!--TERMS OF SERVICE FORM [FIX THIS Y O N PREVENT PAGE]-->
+                <form>
+                    <p>By ticking this box you agree to, our terms of service and to receive automated alerts to your email address above. Disaster Zone will only send alerts that you choose to receive in the event of a disaster.</p>
+                    <input type="radio" name="agree" value="Yes"><h6>Yes</h6>
+                    <input type="radio" name="agree" value="No" checked><h6>No</h6>
+                    <!-- SUBMIT -->
+                    <input type="submit" value="Submit">
+                </form>
+                <!--EMAIL FORM END -->
+
+            </div>
+
             <!--+++ RADIO ALERT +++-->
+            <div id="radioAlertShow" class="hidden">
+                <!--[DISALBED]<h3>RADIO</h3>-->
+                <p>Emergency radio frequencies [NZ ONLY] tune in to the frequency�s below to, keep up to date in a disaster Radio New Zealand National.</p>
+                
+                <!--RADIO FEQUENCY TITLES-->
+                <div class="container-fluid">
+                    <div id="inputDiv" class="inputDivRow1">
+                        <h6>Auckland:</h6>
+                        <br>
+                        <h6>Christchurch:</h6>
+                        <br>
+                        <h6>Dunedin:</h6>
+                        <br>
+                        <h6>Gisborne:</h6>
+                        <br>
+                        <h6>Kapiti:</h6>
+                        <br>
+                        <h6>Napier:</h6>
+                        <br>
+                        <h6>Queenstown:</h6>
+                        <br>
+                        <h6>Taupo:</h6>
+                        <br>
+                        <h6>Wellington:</h6>
+                        <br>
+                        <h6>Whangarei:</h6>
+                    </div>
+                    <!--RADIO FORM TITLES END-->
+                    
+                    <!-- INPUT DIV 2 [RADIO FREQUENCYS]-->
+                    <div id="inputDiv" class="inputDivRow2">
+                        <!-- Auckland -->
+                       <h6>101.4 FM, 837 AM</h6>
+                        
+                        <!-- Christchurch -->
+                        <h6>101.7 FM, 675 AM</h6>
+                        
+                        <!-- Dunedin -->
+                        <h6>101.4 FM , 810 AM</h6>
+                        
+                        <!-- Gisborne -->
+                        <h6>101.3 FM, 1314 AM</h6>
+                        
+                        <!-- Kapiti -->
+                        <h6>101.5 FM, 567 AM</h6>
+                        
+                        <!-- Napier -->
+                        <h6>101.5 FM, 630 AM</h6>
+                        
+                        <!-- Queenstown -->
+                        <h6>101.6 FM, 1134 AM</h6>
+                        
+                        <!-- Taupo -->
+                        <h6>101.6 FM</h6>
+                        
+                        <!-- Wellington -->
+                        <h6>101.3 FM, 567 AM</h6>
+                        
+                        <!-- Whangarei -->
+                        <h6>104.4 FM, 837 AM </h6>
+                        
+                    <!-- INPUT DIV 2 END -->
+                    </div>
+                    
+                </div>
+                <!--OTHER RADIO FREQUENCYS]-->
+                <p>For a complete emergency radio frequency list please visit this <a href="http://www.radionz.co.nz/assets/cms_uploads/000/000/063/Radio_NZ_Frequency_List.pdf" target="_blank">link.</a></p>
+
+               
+                <!--RADIO FORM END -->
+
+            </div>
 
             <!--++== ALERTS POP UP DIV END ==++-->
 

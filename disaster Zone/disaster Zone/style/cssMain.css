@@ -239,8 +239,40 @@ height:auto;
     background-color:#ff530d; /* ORANGE */
     border:2px solid #b716ee; /*PURPLE*/
     overflow:hidden;
-
 }
+
+#emailAlertShow {
+    width:23.34%;
+    height:auto;
+    margin-left:74.65%;
+    /*margin-left:74vw;*/
+    margin-top:6%;
+  
+    padding:0.5%;
+    position:absolute;
+    
+    /*  margin-top:; */
+    background-color:#ff530d; /* ORANGE */
+    border:2px solid #b716ee; /*PURPLE*/
+    overflow:hidden;
+}
+
+#radioAlertShow {
+    width:23.34%;
+    height:auto;
+    margin-left:74.65%;
+    /*margin-left:74vw;*/
+    margin-top:6%;
+  
+    padding:0.5%;
+    position:absolute;
+    
+    /*  margin-top:; */
+    background-color:#ff530d; /* ORANGE */
+    border:2px solid #b716ee; /*PURPLE*/
+    overflow:hidden;
+}
+
 
 #alertsPosition {
     width:23.34%;

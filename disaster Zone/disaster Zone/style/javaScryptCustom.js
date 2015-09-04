@@ -1,7 +1,7 @@
 /* custom javaScrypt MDDN201 P2 [2015] (300317288)*/
 
 $(document).ready(function () {
-    /***** TINY SCROLL ****
+    /***** TINY SCROLL [Seems to break everything] **** 
     var $box = $("#box");
     $box.tinyscrollbar();
 
@@ -25,6 +25,7 @@ $(document).ready(function () {
     /**** NAV CONTENT HIDE SHOW ****/
 /* CLICK VAR */
     // var counter to show or hide #hidden ID
+
     //var clickN = 0;  //NEWS [DISABLED]
     var clickP = 0; //PREPARE
     var clickC = 0; //COMMUNICATION
@@ -121,25 +122,6 @@ $(document).ready(function () {
     });
 
     /****^ ALERTS SHOW END ^****/
-
-
-
-/*+ NEWS + [DISABLED]
-    
-    $(".navNews").click(function () {
-        //show nav expand div
-        $("#navNExpand").removeClass("hidden");
-        $("#navNExpand").animate({ height: "100vh" }); //sets hight and animates
-        clickN = clickN + 1; //adds 1 to var
-
-        //hide nav expand div
-        if (clickN == 2) {
-            $("#navNExpand").addClass("hidden");
-            $("#navNExpand").animate({ height: "0vh" }); //sets hight to 0%
-            clickN = 0;
-        }
-
-    }); */
 
 /*++ PREPARE ++*/
 
@@ -255,7 +237,7 @@ $(document).ready(function () {
         }
 
 
-
+        
     });
 
 

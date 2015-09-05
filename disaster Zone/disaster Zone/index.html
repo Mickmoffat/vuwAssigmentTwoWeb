@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="uft-8">
 <!---==== FAV ICON ====--->
-    <link rel="shortcut icon" href="./img/favIcon.ico">
+    <link rel="shortcut icon" href="./media/img/favIcon.ico">
 
 <!---==== External Style sheets load ====--->
 <!---=== bootstrapFrameWork Import ===--->
@@ -156,20 +156,20 @@
             <!-- ALERT CONTAIN -->
              <div class="headerAlert">
                  <div id="altertText" class="">
-                     <img id="imgAlert" src="./img/alerts/alertsText.png" alt="Alerts">
+                     <img id="imgAlert" src="./media/img/alerts/alertsText.png" alt="Alerts">
                  </div>
                  
                      <!-- SMS ALERT -->
                  <div id="alertID" class="smsAlert">
-                     <img id="imgAlert" src="./img/alerts/sms.png" alt="SMS">
+                     <img id="imgAlert" src="./media/img/alerts/sms.png" alt="SMS">
                  </div>
                      <!-- EMAIL ALERT -->
                      <div id="alertID" class="emailAlert">
-                         <img id="imgAlert" src="./img/alerts/email.png" alt="EMAIL">
+                         <img id="imgAlert" src="./media/img/alerts/email.png" alt="EMAIL">
                      </div>
                      <!-- RADIO ALERT -->
                      <div id="alertID" class="radioAlert">
-                         <img id="imgAlert" src="./img/alerts/radio.png" alt="RADIO">
+                         <img id="imgAlert" src="./media/img/alerts/radio.png" alt="RADIO">
                      </div>
 
                </div>
@@ -647,7 +647,7 @@
 
                
                 
-                <!--++ MAP OVERLAY START [PLACEHOLDER, Will be done in-api third project] ++-->
+                <!--++ MAP OVERLAY START [PLACEHOLDER, Will be done in-api third project] && [Top ten disasters] ++-->
 
                 <!-- MAP KEY DIV -->
                 <div class="mapKey">
@@ -661,23 +661,54 @@
                                 <!-- #1 -->
                                 <tr>
                                     <td><h5>Severe</h5></td>
-                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/severe.jpg"></td>
+                                    <td><img class="imgKeyColor" id="imgColorSize" src="./media/img/mapKeys/dangerLevels/severe.jpg"></td>
+                                    <td>&nbsp;</td>
+
+                                    <!-- EARTHQUAKE ICON -->
+                                    <td><h5>Earthquake</h5></td>
+                                    <td><img class="imgKeyDisasterCode" id="imgDisasterEvent" src="./media/img/mapKeys/event/earthquake.png"></td>
                                 </tr>
                                 <!-- #2 -->
                                 <tr>
                                     <td><h5>Strong</h5></td>
-                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/strong.jpg"></td>
+                                    <td><img class="imgKeyColor" id="imgColorSize" src="./media/img/mapKeys/dangerLevels/strong.jpg"></td>
+                                    <td>&nbsp;</td>
+
+                                    <!--FLOOD ICON -->
+                                    <td><h5>Flood</h5></td>
+                                    <td><img class="imgKeyDisasterCode" id="imgDisasterEvent" src="./media/img/mapKeys/event/flood.png"></td>
                                 </tr>
                                 <!-- #3 -->
                                 <tr>
                                     <td><h5>Moderate</h5></td>
-                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/moderate.jpg"></td>
+                                    <td><img class="imgKeyColor" id="imgColorSize" src="./media/img/mapKeys/dangerLevels/moderate.jpg"></td>
+                                    <td>&nbsp;</td>
+
+                                    <!--HURRICANE ICON -->
+                                    <td><h5>Hurricane</h5></td>
+                                    <td><img class="imgKeyDisasterCode" id="imgDisasterEvent" src="./media/img/mapKeys/event/hurricane.png"></td>
                                 </tr>
                                 <!-- #4 -->
                                 <tr>
                                     <td><h5>Light</h5></td>
-                                    <td><img class="imgKeyColor" src="./img/mapKeys/dangerLevels/light.jpg"></td>
-                                </tr>                                
+                                    <td><img class="imgKeyColor" id="imgColorSize" src="./media/img/mapKeys/dangerLevels/light.jpg"></td>
+                                    <td>&nbsp;</td>
+
+                                    <!--TORNADO ICON -->
+                                    <td><h5>Tornado</h5></td>
+                                    <td><img class="imgKeyDisasterCode" id="imgDisasterEvent" src="./media/img/mapKeys/event/tornado.png"></td>
+                                </tr>
+                                <!-- #4 --> 
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;</td>
+
+                                    <!--FIRE ICON -->
+                                    <td><h5>Fire</h5></td>
+                                    <td><img class="imgKeyDisasterCode" id="imgDisasterEvent" src="./media/img/mapKeys/event/fire.png"></td>
+
+                                </tr>                               
                             </table>
                         <!-- MAP KEY COLOR TABLE END-->
                     
@@ -685,43 +716,7 @@
 
                     <!-- COL1 END-->
 
-                    <!-- COL2 DISASTER CODE-->
-                    <div class="mapKeyDisasterCode">
-                        <!-- ADD TOP 10 FOR FINAL PROJECT -->
-                        <!-- DISASTER TABLE -->
-                        <table>
-                            <!-- #1 -->
-                            <tr>
-                                <td><h5>Earthquake</h5></td>
-                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/severe.jpg"></td>
-                            </tr>
-                            <!-- #2 -->
-                            <tr>
-                                <td><h5>Flood</h5></td>
-                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/strong.jpg"></td>
-                            </tr>
-                            <!-- #3 -->
-                            <tr>
-                                <td><h5>Hurricane</h5></td>
-                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/moderate.jpg"></td>
-                            </tr>
-                            <!-- #4 -->
-                            <tr>
-                                <td><h5>Tornado</h5></td>
-                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/light.jpg"></td>
-                            </tr>
 
-                            <!-- #5 -->
-                            <tr>
-                                <td><h5>Fire</h5></td>
-                                <td><img class="imgKeyDisasterCode" src="./img/mapKeys/dangerLevels/light.jpg"></td>
-                            </tr>
-
-
-                        </table>
-                        <!-- DISASTER TABLE END -->
-                       
-                    </div>
                     </div>
                     <!-- COL2 END -->
                     

@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family:'Lato';
-    color:#183152; /* ORANGE */
+    color:#183152; /* DARK BLUE */
     font-size:42px;    
     font-size:2.625em;
     font-size:2vw;
@@ -54,7 +54,7 @@ h6 {
 /** MAP KEY ITEMS **/
 h4 {
     font-family:'Lato';
-    color:#201c1c; /* off black*/
+    color:#183152; /* DARK BLUE*/
     font-size:0.9vw;
     margin:0.2%;
     padding:0.2%;
@@ -62,7 +62,7 @@ h4 {
 }
 
 #navHExpand h4 {
-    color:#F3841E; /*ORANGE*/
+    color:#183152; /*DARK BLUE*/
 }
 
 h5 {
@@ -874,6 +874,7 @@ article {
 table {
     margin:0.2%;
     padding:0.2%;
+    width:100%;
 
     /* */
    /* border:1px solid #0026ff; BLUE*/
@@ -894,14 +895,28 @@ td {
 /* IMG KEY */
 .imgKeyColor {
     margin-left:2vw;
-    margin-left:50%;
+    margin-left:30%;
     
 }
 
+/* IMAGE ID FOR COLORS SIZING [NEEDS TO BE MADE RESPONCIVE]*/
+#imgColorSize {
+
+    height:40px;
+    height:2.500em;
+}
+
+/* IMAGE CLASS FOR DISASTERS */
 .imgKeyDisasterCode {
     margin-left:3vw;
-    margin-left:60%;
+    margin-left:30%;
+}
+
+/* DISASTER EVENT IMG SIZE */
+#imgDisasterEvent {
     
+    height:40px;
+    height:2.500em;
 }
 
 
@@ -909,9 +924,8 @@ td {
 /* DANGER LEVEL */
 .mapKeyColor {
     height:auto;
-    width:42%;
+    width:100%;
     margin-top:0.5%;
-    margin-left:2%;
     display:inline-block;
     overflow:hidden;
 
@@ -919,20 +933,6 @@ td {
     
     /* */
    /* border:1px dotted #ff0000;  RED */
-}
-
-/*= DISARSTER CODES =*/
-.mapKeyDisasterCode {
-    height:auto;
-    width:48%;
-    margin-top:0.5%;
-    margin-right:8%;
-    display:inline-block;
-    overflow:hidden;
-    float:right;
-
-    /* */
-   /* border:1px dotted rgba(29, 29, 29, 0.54);  GREY */
 }
 
 /**** MAP KEY END ****/

@@ -1,7 +1,10 @@
 /**** CSS main style sheet disaster zone MDDN201 P2 [2015] (300317288)****/
 
 /***** INDEX STYLE *****/
-/*[STYLETIME]*/
+/*[STOP STYLETIME]*/
+
+/*CUSTOM FONT LOCAL*/
+/* CONTENT */
 
 /**** FONT-SIZE-STYLE ****/
 
@@ -9,7 +12,7 @@
 
 /*** HEADER ***/
 h1 {
-    font-family:'Lato';
+    font-family:'lato';
     color:white;
     font-size:42px;    
     font-size:2.625em;
@@ -156,11 +159,12 @@ header {
     float:left;
     overflow:hidden;
     /* */
-    border:2px solid #00ff34; /*BRIGHT GREEN*/
+   /* border:2px solid #00ff34; BRIGHT GREEN*/
 }
 
 #headerLogoScale {
     width:60%;
+    margin-left:0.5%;
     height:auto;
 
 

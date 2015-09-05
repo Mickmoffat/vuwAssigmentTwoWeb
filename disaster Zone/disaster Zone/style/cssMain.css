@@ -67,7 +67,7 @@ h4 {
 
 h5 {
     font-family:'Lato';
-    color:#201c1c; /* off black*/
+    color:#183152; /* DARK BLUE*/
     font-size:0.8vw;
     margin:2%;
     padding:1.2%;
@@ -151,13 +151,19 @@ header {
 
 /* CLASS */
 .headerLogo {
-    width:;
-    height:;
+    width:74.5%;
+    height:auto;
     float:left;
-    margin:;
-    padding:;
+    overflow:hidden;
     /* */
-    /*border:2px solid #00ff34; BRIGHT GREEN*/
+    border:2px solid #00ff34; /*BRIGHT GREEN*/
+}
+
+#headerLogoScale {
+    width:60%;
+    height:auto;
+
+
 }
 
 /* HEADER ALERT CONTAIN */
@@ -882,14 +888,14 @@ table {
 
 tr {
 
-   /* */
-   border: 1px solid green;
+   /* 
+   border: 1px solid green;*/
 }
 
 td {
     
-    /* */
-     /*border: 1px solid #4cff00;BRIGHT GREEN*/
+    /*
+    border: 1px solid #4cff00;BRIGHT GREEN */
 }
 
 /* IMG KEY */
@@ -922,12 +928,20 @@ td {
 
 /* IMG KEY END */
 /* DANGER LEVEL */
-.mapKeyColor {
+.mapKeysEvents {
     height:auto;
     width:100%;
     margin-top:0.5%;
     display:inline-block;
     overflow:hidden;
+
+    /*BORDER*/
+    /*L*/
+    border-bottom-left-radius:0.6em;
+    border-top-left-radius:0.2em;
+    /*R*/
+    border-bottom-right-radius:0.6em;
+    border-top-right-radius:0.2em;
 
     background-color:#C4D7ED; /*LIGHT BLUE*/
     
@@ -1033,6 +1047,12 @@ footer {
     
     /*
    border: 2px dashed blue;*/
+}
+
+footer p {
+  text-align:right;
+  margin-top:1%;
+  color:#f9f9f9;
 }
 
 /*** ID ***/

@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family:'Lato';
-    color:#F3841E; /* ORANGE */
+    color:#183152; /* ORANGE */
     font-size:42px;    
     font-size:2.625em;
     font-size:2vw;
@@ -41,7 +41,7 @@ h3 {
 /* ALERT FROM TITLE */
 h6 {
     font-family:'Lato';
-    color:white;
+    color:#201c1c; /* off black*/
     font-size:20px;
     font-size:1.1vw;
     margin:0.5%;
@@ -86,17 +86,7 @@ p {
     padding:0.5%;
 }
 
-#smsAlertShow p {
-    color:#ffffff;
-}
 
-#emailAlertShow p {
-    color:#ffffff;
-}
-
-#radioAlertShow p {
-    color:#ffffff;
-}
 
 
 /** LIST ELEMENT **/
@@ -117,20 +107,12 @@ li {
 
 /* A LINK */
 a:link {
-    color:#F3841E; /* ORANGE*/
-}
-
-#radioAlertShow a:link {
-    color:#201c1c;
-}
-
-#radioAlertShow a {
-    color:#201c1c;
+    color:#378148; /* GREEN*/
 }
 
 a {
 
-     color:#F3841E; /*ORANGE*/
+     color:#378148; /*GREEN*/
 }
 
 
@@ -160,7 +142,7 @@ header {
     overflow:hidden;
     
     /*COLOR*/
-    background-color:#f7f8f8; /*GREY*/
+    background-color:#f9f9f9; /*OFF WHITE*/
 
    /*border: 2px dashed orange;*/
 }
@@ -200,7 +182,7 @@ header {
     border-bottom-right-radius:0.2em;
     
     /* */
-    background-color:#F3841E; /* ORANGE */
+    background-color:#375D81; /* BLUE DARK */
     /*border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 
@@ -296,7 +278,7 @@ height:auto;
     border-top-right-radius:0.2em;
     
     /*  margin-top:; */
-    background-color:#F3841E; /* ORANGE */
+    background-color:#C4D7ED; /* LIGHT BLUE */
     /*border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
@@ -321,7 +303,7 @@ height:auto;
     border-top-right-radius:0.2em;;
     
     /*  margin-top:; */
-    background-color:#F3841E; /* ORANGE */
+    background-color:#C4D7ED; /* LIGHT BLUE */
    /* border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
@@ -346,7 +328,7 @@ height:auto;
     border-top-right-radius:0.2em;
     
     /*  margin-top:; */
-   background-color:#F3841E; /* ORANGE */
+   background-color:#C4D7ED; /* LIGHT BLUE */
    /* border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
@@ -477,7 +459,7 @@ input[type=number]{
     display:inline-block;
 
     /*COLOR*/
-    background-color:#F3841E; /* ORANGE */
+    background-color:#375D81; /* BLUE DARK */
 
     /*border: 2px dashed #c916de;*/
   }
@@ -587,7 +569,10 @@ input[type=number]{
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
     height:84vh;
-    margin:0.5%;
+    margin-top:0.2%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    margin-bottom:0.5%;
     padding:0.2%;
     overflow:scroll;
     float:left;
@@ -604,7 +589,7 @@ input[type=number]{
     
     
     
-    background-color:#ffffff;
+   background-color:#C4D7ED; /* LIGHT BLUE */
 
     /*
     border: 2px dashed #c916de;*/
@@ -616,66 +601,66 @@ input[type=number]{
     margin-bottom:0.5%;
     overflow:hidden;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR 
+    background-color:#ffffff;*/
 
     /**/
-   /* border:1px solid #00d1ab;  BLUE */
+    border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 .NSCR2 {
    height:auto;
    margin-bottom:0.5%;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR 
+    background-color:#ffffff; */
 
    /**/
-  /* border:1px solid #ff0000;  RED */
+  border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 .NSCR3 {
    height:auto;
    margin-bottom:0.5%;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR 
+    background-color:#ffffff; */
    
       /**/
-   /*border:1px solid #ff00dc;  PURPLE */
+   border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 .NSCR4 {
    height:auto;
    margin-bottom:0.5%;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR 
+    background-color:#ffffff; */
 
       /**/
-  /* border:1px solid #fffa00;  YELLOW */
+  border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 .NSCR5 {
    height:auto;
    margin-bottom:0.5%;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR
+    background-color:#ffffff;  */
     
      /**/
-  /*  border:1px solid #ff0000; RED */
+  border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 .NSCR6 {
    height:auto;
    margin-bottom:0.5%;
 
-    /* COLOR */
-    background-color:#ffffff;
+    /* COLOR 
+    background-color:#ffffff; */
    
       /**/
-    /*border:1px solid #ff0000; RED */
+    border-bottom:0.225em dashed #EAEBFF; /*LIGHT BLUE*/
 }
 
 
@@ -700,7 +685,7 @@ input[type=number]{
     border-bottom-right-radius:0.6em;
     border-top-right-radius:0.2em;
 
-    background-color:#ffffff;
+    background-color:#C4D7ED; /* LIGHT BLUE */
     
     /*
     border: 2px dashed #0026ff;*/
@@ -738,7 +723,7 @@ input[type=number]{
     border-top-right-radius:0.2em;
 
     
-    background-color:#ffffff;
+   background-color:#C4D7ED; /* LIGHT BLUE */
     
     /*
     border: 2px dashed #ff00dc;*/
@@ -763,7 +748,7 @@ input[type=number]{
     border-bottom-right-radius:0.6em;
     border-top-right-radius:0.2em;
 
-    background-color:#ffffff;
+    background-color:#C4D7ED; /* LIGHT BLUE */
     
     /*
     border: 2px dashed #ff0000; */
@@ -794,7 +779,7 @@ input[type=number]{
 html {
 
 /* COLOR */
-
+ background-color:#f9f9f9; /*OFF WHITE*/
 }
 
 /***** ARTICLE *****/
@@ -804,11 +789,18 @@ article {
     /*border: 2px dashed red;*/
     
     /* colors */
-    background-color:#f9f9f9; /*GREY*/
+    background-color:#f9f9f9; /*OFF WHITE*/
     
 }
 
 /*****++= MAP OVERLAY =++*****/
+.mapKey h4 {
+    font-family:'Lato';
+    color:#f9f9f9; /* off white*/
+    font-size:1.2vw;
+    padding-bottom:0.5%;
+
+}
 
 /***+ EVENT OVERLAY +***/
 .earthquake {
@@ -849,9 +841,10 @@ article {
 /**** MAP KEY ****/
 .mapKey {
     /* height:20vh;*/
-    height:26.5%;
+    height:auto;
     /* width:17vw;*/
     width:22.5%;
+    padding:1%;
        
     margin-left:54.5vw;
     margin-left:50.5%;
@@ -859,9 +852,20 @@ article {
     position:absolute;
     overflow:hidden;
     z-index:1; /* SETS POS ON Z*/
+    
+    /*BORDER*/
+    /*L*/
+    border-top-left-radius:20px;
+    border-top-left-radius:0.6em;
+    border-bottom-left-radius:0.2em;
+    /*R*/
+    border-top-right-radius:20px;
+    border-top-right-radius:0.6em;
+    border-bottom-right-radius:0.2em;
 
     /* */
-    background-color:#ffffff; /* WHITE*/
+    background-color:#183152; /* WHITE*/
+    background-color:rgba(24,49,82,0.95);
     /*border:dotted 2px #f500ff;  PINK */
 }
 
@@ -889,13 +893,15 @@ td {
 
 /* IMG KEY */
 .imgKeyColor {
-    margin-left:73%;
     margin-left:2vw;
+    margin-left:50%;
+    
 }
 
 .imgKeyDisasterCode {
-    margin-left:73%;
     margin-left:3vw;
+    margin-left:60%;
+    
 }
 
 
@@ -905,8 +911,11 @@ td {
     height:auto;
     width:42%;
     margin-top:0.5%;
+    margin-left:2%;
     display:inline-block;
     overflow:hidden;
+
+    background-color:#C4D7ED; /*LIGHT BLUE*/
     
     /* */
    /* border:1px dotted #ff0000;  RED */
@@ -1011,6 +1020,15 @@ footer {
     height:auto;
     margin:auto;
 
+   /*BORDER*/
+    /*L*/
+    border-bottom-left-radius:0.6em;
+    border-top-left-radius:0.2em;
+    /*R*/
+    border-bottom-right-radius:0.6em;
+    border-top-right-radius:0.2em;
+	
+    background-color:#183152; /*DARK BLUE */
 
     
     /*
@@ -1024,7 +1042,7 @@ footer {
     margin:inherit;
 
 
-    background-color:#F3841E;  /* ORANGE */
+    
     /**/
    /* border:5px solid #fffa00; YELLOW*/
 }

@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family:'Lato';
-    color:rgba(29, 29, 29, 0.54);
+    color:#F3841E; /* ORANGE */
     font-size:42px;    
     font-size:2.625em;
     font-size:2vw;
@@ -54,16 +54,20 @@ h6 {
 /** MAP KEY ITEMS **/
 h4 {
     font-family:'Lato';
-    color:black;
-    font-size:1.2vw;
+    color:#201c1c; /* off black*/
+    font-size:0.9vw;
     margin:0.2%;
     padding:0.2%;
 
 }
 
+#navHExpand h4 {
+    color:#F3841E; /*ORANGE*/
+}
+
 h5 {
     font-family:'Lato';
-    color:black;
+    color:#201c1c; /* off black*/
     font-size:0.8vw;
     margin:2%;
     padding:1.2%;
@@ -74,7 +78,7 @@ h5 {
 /** PARAGRAPH **/
 p {
     font-family:'Lato';
-    color:black;
+    color:#201c1c; /* off black*/
     font-size:18px;
     font-size:1.536em;
     /*font-size:1.8vh;*/
@@ -82,18 +86,53 @@ p {
     padding:0.5%;
 }
 
+#smsAlertShow p {
+    color:#ffffff;
+}
+
+#emailAlertShow p {
+    color:#ffffff;
+}
+
+#radioAlertShow p {
+    color:#ffffff;
+}
+
+
 /** LIST ELEMENT **/
 /* UNSORTED */
 ul {
     font-family:'Lato';
-    color:black;
+    color:#201c1c; /* off black*/;
     font-size:18px;
     font-size:1.536em;
     /*font-size:1.8vh;*/
     font-size:0.9vw;
+}
 
+li {
+    color:#201c1c; /* off black*/ 
 }
 /* SORTED */
+
+/* A LINK */
+a:link {
+    color:#F3841E; /* ORANGE*/
+}
+
+#radioAlertShow a:link {
+    color:#201c1c;
+}
+
+#radioAlertShow a {
+    color:#201c1c;
+}
+
+a {
+
+     color:#F3841E; /*ORANGE*/
+}
+
 
 
 
@@ -107,7 +146,8 @@ body {
     overflow:visible;
     padding:0.2%;
     margin:auto;
-    border: 2px dashed green;
+
+    /*border: 2px dashed green;*/
 }
 
 /***** BODY END *****/
@@ -118,7 +158,11 @@ header {
     height:12%;
     margin:auto;
     overflow:hidden;
-   border: 2px dashed orange;
+    
+    /*COLOR*/
+    background-color:#f7f8f8; /*GREY*/
+
+   /*border: 2px dashed orange;*/
 }
 
 /*** HEADER CONTENT ***/
@@ -131,7 +175,7 @@ header {
     margin:;
     padding:;
     /* */
-    border:2px solid #00ff34; /*BRIGHT GREEN*/
+    /*border:2px solid #00ff34; BRIGHT GREEN*/
 }
 
 /* HEADER ALERT CONTAIN */
@@ -148,8 +192,8 @@ header {
     border-radius:1.250em;
     
     /* */
-    background-color:#ff530d; /* ORANGE */
-    border:2px solid #b716ee; /*PURPLE*/
+    background-color:#F3841E; /* ORANGE */
+    /*border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 
 
@@ -163,8 +207,8 @@ header {
     margin:0.5%;
     display:inline-block;
     
-    /* */
-    border: 1px solid #C9FFD5;
+    /* 
+    border: 1px solid #C9FFD5;*/
 
 }
 
@@ -185,21 +229,21 @@ height:auto;
     margin:0.5%;
     display:inline-block;
     
-    /* */
-    border: 1px solid #C9FFD5;
+    /* 
+    border: 1px solid #C9FFD5;*/
 }
 /* EMAIL */
 .emailAlert {
     
     
-    /* */
-    border: 1px solid green;
+    /* 
+    border: 1px solid green;*/
 }
 
 /* SMS */
 .smsAlert {
  
-    /**/
+    /*
     border:1px dotted black; /* WHITE*/
 }
 
@@ -207,7 +251,7 @@ height:auto;
 
 .radioAlert {
 
-    /**/
+    /*
     border:1px dashed #d8e10e; /*EW YELLO*/
 
 }
@@ -219,56 +263,59 @@ height:auto;
 /* alerts div pop up*/
 .alertsPopUpDiv {
 
-    /**/
-    border:2px solid green;
+    /*
+    border:2px solid green;*/
 
 }
 /* ID */
 #smsAlertShow {
     width:23.34%;
     height:auto;
-    margin-left:74.65%;
+    margin-left:75%;
     /*margin-left:74vw;*/
     margin-top:6%;
   
     padding:0.5%;
     position:absolute;
+    z-index:5;
     
     /*  margin-top:; */
-    background-color:#ff530d; /* ORANGE */
-    border:2px solid #b716ee; /*PURPLE*/
+    background-color:#F3841E; /* ORANGE */
+    /*border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
 
 #emailAlertShow {
     width:23.34%;
     height:auto;
-    margin-left:74.65%;
+    margin-left:75%;
     /*margin-left:74vw;*/
     margin-top:6%;
   
     padding:0.5%;
     position:absolute;
+    z-index:5;
     
     /*  margin-top:; */
-    background-color:#ff530d; /* ORANGE */
-    border:2px solid #b716ee; /*PURPLE*/
+    background-color:#F3841E; /* ORANGE */
+   /* border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
 
 #radioAlertShow {
     width:23.34%;
     height:auto;
-    margin-left:74.65%;
+    margin-left:75%;
     /*margin-left:74vw;*/
     margin-top:6%;
   
     padding:0.5%;
     position:absolute;
+    z-index:5;
     
     /*  margin-top:; */
-    background-color:#ff530d; /* ORANGE */
-    border:2px solid #b716ee; /*PURPLE*/
+   background-color:#F3841E; /* ORANGE */
+   /* border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
 
@@ -285,7 +332,7 @@ height:auto;
     display:inline-block;
     /*  margin-top:; */
     background-color:#ff530d; /* ORANGE */
-    border:2px solid #b716ee; /*PURPLE*/
+    /*border:2px solid #b716ee; PURPLE*/
     overflow:hidden;
 }
 
@@ -366,7 +413,7 @@ input[type=number]{
     
     display:inline-block;
     overflow:hidden;
-    /* */
+    /*
     border:2px dashed #FFFFCB; /*CREME*/
 }
 
@@ -375,7 +422,7 @@ input[type=number]{
     height:auto;
     position:absolute;
 
-    /* */
+    /*
     border:2px solid #c916de; /*PURPLE*/
 }
 /* [DISABLED]
@@ -398,7 +445,7 @@ input[type=number]{
     display:inline-block;
 
     /*COLOR*/
-    /*background-color:#1BBD91;  BLUE */
+    background-color:#F3841E; /* ORANGE */
 
     /*border: 2px dashed #c916de;*/
   }
@@ -413,7 +460,7 @@ input[type=number]{
     float:left;
     border-radius:20px;
     border-radius:1.250em;
-    background-color:#F3841E;
+    
     /*
     border: 2px dashed #c916de;*/
 }
@@ -464,10 +511,9 @@ input[type=number]{
     width:100%;
     height:15%;
     overflow:hidden;
-    /*COLOR*/
-    background-color:#F1F2F4;
-    /*[NEEDS FIXING]*/
-    border: 2px solid #ff00dc;
+
+    /*[NEEDS FIXING]
+    border: 2px solid #ff00dc;*/
 }
 
 /***+++++ NAV EXPAND +++++***/
@@ -491,10 +537,10 @@ input[type=number]{
     
     
     
-    background-color:#FFFFCB;
+    background-color:#ffffff;
 
-    /**/
-    border: 2px dashed #c916de;
+    /*
+    border: 2px dashed #c916de;*/
 }
 
 /** NEWS EXPAND CONTENT [ADD HIDDEN ELEMENT IN JQ EXPAND ON CLICK [P3]]**/
@@ -502,43 +548,67 @@ input[type=number]{
     height:auto;
     margin-bottom:0.5%;
     overflow:hidden;
+
+    /* COLOR */
+    background-color:#ffffff;
+
     /**/
-    border:1px solid #00d1ab; /* BLUE */
+   /* border:1px solid #00d1ab;  BLUE */
 }
 
 .NSCR2 {
    height:auto;
    margin-bottom:0.5%;
+
+    /* COLOR */
+    background-color:#ffffff;
+
    /**/
-   border:1px solid #ff0000; /* RED */
+  /* border:1px solid #ff0000;  RED */
 }
 
 .NSCR3 {
    height:auto;
    margin-bottom:0.5%;
+
+    /* COLOR */
+    background-color:#ffffff;
+   
       /**/
-   border:1px solid #ff00dc; /* PURPLE */
+   /*border:1px solid #ff00dc;  PURPLE */
 }
 
 .NSCR4 {
    height:auto;
    margin-bottom:0.5%;
+
+    /* COLOR */
+    background-color:#ffffff;
+
       /**/
-   border:1px solid #fffa00; /* YELLOW */
+  /* border:1px solid #fffa00;  YELLOW */
 }
 
 .NSCR5 {
    height:auto;
    margin-bottom:0.5%;
-      /**/
-   border:1px solid #ff0000; /* RED */
+
+    /* COLOR */
+    background-color:#ffffff;
+    
+     /**/
+  /*  border:1px solid #ff0000; RED */
 }
 
 .NSCR6 {
    height:auto;
    margin-bottom:0.5%;
+
+    /* COLOR */
+    background-color:#ffffff;
+   
       /**/
-   border:1px solid #ff0000; /* RED */
+    /*border:1px solid #ff0000; RED */
 }
 
 
@@ -548,25 +618,26 @@ input[type=number]{
     width:23.84%;
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
-    margin-top:0.5%;
+    margin-top:0.2%;
     margin-left:25.24%;
     padding:0.2%;
     position:absolute;
     
     z-index:4;
 
-    background-color:#C9FFD5;
+    background-color:#ffffff;
     
-    /**/
-    border: 2px dashed #0026ff;
+    /*
+    border: 2px dashed #0026ff;*/
 }
 
 /** PREP EXPAND CONTENT **/
 .PECR1 {
    height:auto;
    margin-bottom:0.5%;
+
       /**/
-   border:1px solid #ff0000; /* RED */
+  /* border:1px solid #ff0000;  RED */
 
 }
 
@@ -577,7 +648,7 @@ input[type=number]{
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
 
-    margin-top:0.5%;
+    margin-top:0.2%;
     margin-left:50.10%;
     padding:0.2%;
     position:absolute;
@@ -585,27 +656,27 @@ input[type=number]{
 
 
     
-    background-color:#74CEB7;
+    background-color:#ffffff;
     
-    /**/
-    border: 2px dashed #ff00dc;
+    /*
+    border: 2px dashed #ff00dc;*/
 }
 
 #navHExpand {
     width:23.84%;
     /*height:90%;*/
     /* SETTING CHANGED BY JS*/
-    margin-top:0.5%;
+    margin-top:0.2%;
     margin-left:75%;
     padding:0.2%;
     float:right;
     position:absolute;
     z-index:4;
 
-    background-color:#F2F2C1;
+    background-color:#ffffff;
     
-    /**/
-    border: 2px dashed #ff0000; 
+    /*
+    border: 2px dashed #ff0000; */
 }
 
 /*++ CLASS END ++*/
@@ -633,16 +704,17 @@ input[type=number]{
 html {
 
 /* COLOR */
- background-color:#F7F7F7;
+
 }
 
 /***** ARTICLE *****/
 article {
     height:75%;
-    border: 2px dashed red;
+    
+    /*border: 2px dashed red;*/
     
     /* colors */
-    background-color:#F7F7F7;
+    background-color:#f9f9f9; /*GREY*/
     
 }
 
@@ -658,7 +730,7 @@ article {
     margin-left:60%;
     
     /* */
-    border:1px dotted #000000; /* BLACK */
+   /* border:1px dotted #000000;  BLACK */
 }
 
 .flood {
@@ -700,7 +772,7 @@ article {
 
     /* */
     background-color:#ffffff; /* WHITE*/
-    border:dotted 2px #f500ff; /* PINK */
+    /*border:dotted 2px #f500ff;  PINK */
 }
 
 /*** MAP KEY TABLE ***/
@@ -708,8 +780,9 @@ article {
 table {
     margin:0.2%;
     padding:0.2%;
+
     /* */
-    border:1px solid #0026ff; /*BLUE*/
+   /* border:1px solid #0026ff; BLUE*/
 }
 
 tr {
@@ -721,7 +794,7 @@ tr {
 td {
     
     /* */
-    border: 1px solid #4cff00; /*BRIGHT GREEN*/
+     /*border: 1px solid #4cff00;BRIGHT GREEN*/
 }
 
 /* IMG KEY */
@@ -746,7 +819,7 @@ td {
     overflow:hidden;
     
     /* */
-    border:1px dotted #ff0000; /* RED */
+   /* border:1px dotted #ff0000;  RED */
 }
 
 /*= DISARSTER CODES =*/
@@ -760,7 +833,7 @@ td {
     float:right;
 
     /* */
-    border:1px dotted rgba(29, 29, 29, 0.54); /* GREY */
+   /* border:1px dotted rgba(29, 29, 29, 0.54);  GREY */
 }
 
 /**** MAP KEY END ****/
@@ -783,10 +856,11 @@ td {
 
 #googleAPI {
     width: auto;
-    height: 83.2vh; /* 99 */
+    height: 83.2vh; /* % DOES NOT WORK*/
     overflow:hidden;
-    /* */
-    border: 1px solid orange;
+
+    /* 
+    border: 1px solid orange;*/
 }
 
 /*** ID END ***/
@@ -798,8 +872,8 @@ td {
     height:100%;
     
     
-    /* */
-    border:2px dashed black;
+    /* 
+    border:2px dashed black;*/
 
 }
 
@@ -828,7 +902,7 @@ td {
 padding:0.2%;
 
 /**/
-border:2px solid #7000ff; /*PURPLE*/
+/*border:2px solid #7000ff; PURPLE*/
 }
 
 
@@ -846,7 +920,9 @@ footer {
     width:100%;
     height:auto;
     margin:auto;
-   border: 2px dashed blue;
+    
+    /*
+   border: 2px dashed blue;*/
 }
 
 /*** ID ***/
@@ -856,7 +932,7 @@ footer {
     margin:inherit;
 
     /**/
-    border:5px solid #fffa00; /*YELLOW*/
+   /* border:5px solid #fffa00; YELLOW*/
 }
 
 /*** ID END ***/
